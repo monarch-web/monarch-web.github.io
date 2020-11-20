@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Виталий Петров - тестовое задание</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="Тестовое задание" />
+    <meta property="og:type" content="text" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <img
+          src="./img/logo.svg"
+          alt="Логотип организации"
+          class="header__logo"
+          data-aos="fade-right"
+        />
+        <button class="hamburger hamburger--slider-r" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <nav class="header__nav" data-aos="fade-left">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="#" class="header__link">Main</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Features</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Item</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">Partners</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link">F.A.Q.</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="container section-1">
+        <article class="section-1__post post">
+          <div class="post__content">
+            <h1 class="post__title" data-aos="fade-right"
+            data-aos-duration="1000"
+          >Header</h1>
+            <h2 class="post__subtitle" 
+                data-aos="fade-right" 
+                data-aos-delay="50"
+                data-aos-duration="1000"
+          >
+              Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea
+              reprehenderit elit laboris do exercitation laborum sit elit
+              incididunt aute fugiat consectetur.
+            </h2>
+            <a class="post__link" href="#" 
+               data-aos="fade-right" 
+               data-aos-delay="100"
+               data-aos-duration="1000"
+          >
+              Watch the video to find out more
+            </a>
+          </div>
+
+          <img
+            src="./img/blob_img.png"
+            alt="Абстрактное изображение"
+            class="post__img"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          />
+        </article>
+      </section>
+
+      <div class="sections-bcg">
+        <section class="container section-2">
+          <h2 class="section-2__tilte" data-aos="fade-down">Functionality and features</h2>
+
+          <div class="features" data-aos="zoom-in-up">
+            <div class="features__item">
+              <figure class="features__img-holder">
+                <img
+                  src="./img/features_01.png"
+                  alt="feature 1"
+                  class="features__img"
+                />
+                <figcaption class="features__descr">
+                  Access data from over 30,0000 global stations
+                </figcaption>
+              </figure>
+            </div>
+            <div class="features__item">
+              <figure class="features__img-holder">
+                <img
+                  src="./img/features_02.png"
+                  alt="feature 1"
+                  class="features__img"
+                />
+                <figcaption class="features__descr">
+                  Create your own library of data
+                </figcaption>
+              </figure>
+            </div>
+            <div class="break"></div>
+            <div class="features__item">
+              <figure class="features__img-holder">
+                <img
+                  src="./img/features_03.png"
+                  alt="feature 1"
+                  class="features__img"
+                />
+                <figcaption class="features__descr">
+                  Analyse your data
+                </figcaption>
+              </figure>
+            </div>
+            <div class="features__item">
+              <figure class="features__img-holder">
+                <img
+                  src="./img/features_04.png"
+                  alt="feature 1"
+                  class="features__img"
+                />
+                <figcaption class="features__descr">
+                  Present your data
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="container section-3" data-aos="zoom-in-up">
+          <img
+            src="./img/section_3_img.jpg"
+            alt="section-3 img"
+            class="section-3__img"
+          />
+          <form action="POST" class="form">
+            <h2 class="form__title">We want the best value for you:</h2>
+            <span class="form_q">1. Are you willing to spend money?</span>
+            <div class="form__action">
+              <button class="form__btn">Yes</button>
+              <button class="form__btn">No</button>
+            </div>
+            <span class="form_q">2. Who are you?</span>
+            <div class="form__action">
+              <button class="form__btn">Individual</button>
+              <button class="form__btn">Student</button>
+              <button class="form__btn">Company user</button>
+            </div>
+            <span class="form_q">3. What sort of data are you working with?</span>
+            <div class="form__action">
+              <button class="form__btn">Meteorological</button>
+              <button class="form__btn">Other</button>
+            </div>
+            <span class="form_q">4. Wind Speed Data:</span>
+            <div class="form__action">
+              <button class="form__btn">I have my own</button>
+              <button class="form__btn">I want to find quality wind speed data</button>
+            </div>
+          </form>
+        </section>
+      </div>
+      
+      <section class="section-4">
+        <div class="container">
+          <h2 class="section-4__title" data-aos="fade-down">
+            Our partners
+          </h2>
+          <div class="swiper-container" data-aos="fade-up">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="slide__img" src="./img/quve_logo.svg" alt=""></div>
+                <div class="swiper-slide"><img class="slide__img" src="./img/aardvark_logo.svg" alt=""></div>
+                <div class="swiper-slide"><img class="slide__img" src="./img/excellench_logo.svg" alt=""></div>
+                <div class="swiper-slide"><img class="slide__img" src="./img/empha_logo.svg" alt=""></div>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="section-5">
+        <div class="container">
+          <div class="section-5__content">   
+            <h2 class="section-5__title" data-aos="fade-down">
+              Our features
+            </h2>
+            <h3 class="section-5__subtitle" data-aos="fade-up">
+              Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur. 
+            </h3>
+            <div class="accordion-holder" data-aos="fade-up">
+              <button class="accordion">Lorem irure fugiat cupidatat duis mollit commodo?</button>
+              <div class="accordion__panel">
+                <p class="accordion__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+    
+              <button class="accordion">Commodo nisi aliqua proident consequat consequat?</button>
+              <div class="accordion__panel">
+                <p class="accordion__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+    
+              <button class="accordion">Sunt veniam voluptate reprehenderit consectetur eiusmod quis?</button>
+              <div class="accordion__panel">
+                <p class="accordion__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+
+    
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <img src="./img/footer_logo.svg" alt="Footer Logo" class="footer__logo">
+          <div class="footer__social social">
+            <a href="#" class=" social__item facebook--icon"></a>
+            <a href="#" class=" social__item insta--icon"></a>
+            <a href="#" class=" social__item utube--icon"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
