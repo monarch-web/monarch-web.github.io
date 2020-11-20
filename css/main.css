@@ -37,6 +37,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 h1,h2,h3,h4,h5 {
