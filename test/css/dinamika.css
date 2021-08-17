@@ -1,0 +1,11 @@
+@media (max-width:576px) {
+    header {
+        width: 97%;
+        padding-right: 0;
+    }
+
+    .content {
+        max-width: 335px;
+        margin: auto;
+    }
+}

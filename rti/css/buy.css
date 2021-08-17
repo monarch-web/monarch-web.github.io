@@ -1,0 +1,12 @@
+
+@media (min-width:1200px) {
+    .form-input {
+        min-width: 420px;
+    }
+}
+
+.buy-list {
+    padding-left: 50px;
+}
+
+

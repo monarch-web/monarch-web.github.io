@@ -1,0 +1,38 @@
+.settings table td, .settings td:nth-child(1) {
+    text-align: left;
+    padding-left: 23px;
+}
+
+@media (max-width: 1024px) {
+
+    .tables-block {
+        padding-top: 12px;
+        
+    }
+    .tables-block table th {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+
+    .settings table td:last-child {
+        float: right;
+    }
+
+    .tables-block table tr td:nth-child(2) {
+        width: auto;
+    }
+    .settings form button {
+        font-size: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .settings .edit {
+        background: url(../images/edit.png) no-repeat 15px 15px, linear-gradient(180deg, #06AADE 0%, #004BF5 100%);
+    }
+
+    .tables-block table td {
+        text-align: left !important;
+    }
+}

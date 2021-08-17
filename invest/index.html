@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Money Work</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+	<div id="bg_layer"></div>
+	<header>
+		<div>
+			<div class="row">
+				<nav id="nav" class="nav col-12" role="navigation">
+		      
+					<!-- ACTUAL NAVIGATION MENU -->
+					<ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
+					  <li class="nav__item nav__item-1"><a href="./idea.html" class="nav__link">Идеи</a></li>
+					  <li class="nav__item"><a href="./strategy.html" class="nav__link">Стратегии</a></li>
+					  <li class="nav__item"><a href="./express.html" class="nav__link">Экспресс-анализ</a></li>
+					  <li class="nav__item"><a href="./statistic.html" class="nav__link">Статистика</a></li>
+					  <li class="nav__item"><a href="./training.html" class="nav__link">Обучение</a></li>
+					  <li class="nav__item"><a href="./analytics.html" class="nav__link">Экономический журнал</a></li>
+					  <li class="nav__item"><a href="#" class="nav__link">Мероприятия</a></li>
+					  <li class="nav__item"><a href="./contacts.html" class="nav__link">Контакты</a></li>
+					  <li class="nav__item"><button type="button" name="login" id="header-login-m"
+						class="btn header-btn header-btn-login m-0 w-100">Вход</button></li>
+					  <li class="nav__item"><button type="button" name="registration"
+						class="btn header-btn header-btn-reg m-0 w-100">Реристрация</button></li>
+					</ul>
+					
+					<!-- MENU TOGGLE BUTTON -->
+					<a href="#nav" class="nav__toggle" role="button" aria-expanded="false" aria-controls="menu">
+					  <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+						<title>Toggle Menu</title>
+						<g>
+						  <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+						  <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+						  <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+						  <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+						  <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+						</g>
+					  </svg>
+					</a>
+					
+					<!-- ANIMATED BACKGROUND ELEMENT -->
+					<div class="splash"></div>
+					
+				  </nav>
+			</div>
+		</div>
+		<div class="container-fluid header-section">
+			<div class="container">
+				<div class="row">
+					<div
+						class="col-12 col-xl-4 d-flex flex-wrap flex-xl-nowrap align-items-xl-center justify-content-center pl-xl-0">
+						<a href="/index.html"><img class="img-fluid header-logo" src="./images/dist/header-logo.svg" alt="Логотип компании"></a>						<div class="w-100 d-sm-none"></div>
+						<span class="header-logo-descr side-text">Деньги <br> работают</span>
+					</div>
+					<div
+						class="col-12 col-xl-3 d-flex flex-wrap flex-xl-nowrap align-items-xl-center justify-content-center align-items-center social">
+						<span class="mb-3 d-md-block d-none m-xl-0 side-text social-sub">Подписывайтесь на наши соц. сети:</span>
+						<div class="header-social">
+							<!-- <a href="#"><div class="img-fluid social-header-img teleg"></div></a>
+							<a href="#"><div class="img-fluid social-header-img insta"></div></a> -->
+							<ul class="social-list d-md-block d-none pl-0 mb-0">
+								<li class="telegram">
+									<a>
+										<i class="fab fa-telegram-plane"></i>
+									</a>
+								</li>
+								<li class="instagram">
+									<a>
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+							</ul>          
+						</div>
+					</div>
+					<div
+						class="col-12 col-xl-5 d-flex flex-wrap flex-xl-nowrap justify-content-center align-items-xl-center login pr-xl-0">
+						<a href="tel:+78005643309" class="number d-md-block d-none header-number mt-3 m-xl-0">+7 800 564-33-09</a>
+						<div class="w-100 d-sm-none"></div>
+						<div class="d-flex justify-content-between d-md-flex d-none">
+							<button type="button" name="login" id="header-login"
+								class="btn header-btn header-btn-login d-none d-md-inline-block m-xl-0 mr-xl-3">Вход</button>
+							<button type="button" name="registration" id="header-reg"
+								class="btn header-btn header-btn-reg d-none d-md-inline-block m-xl-0">Реристрация</button>
+						</div>
+					</div>
+				</div>
+				<nav class="d-none mt-4 d-xl-block">
+					<ul class="header-list-desc">
+						<li class="header-li ">
+							<a class="header-link" href="./idea.html">Идеи</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="./strategy.html">Стратегии</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="./express.html">Экспресс-анализ</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="./statistic.html">Статистика</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="./training.html">Обучение</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="./analytics.html">Экономический журнал</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="#">Мероприятия</a></li>
+						<li class="header-li ">
+							<a class="header-link" href="./contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+
+
+
+		</div>
+		
+		  
+		<!-- <nav class="container d-xl-none">
+			
+			<div class="mobile-bar">
+				<div class="burger" id="burger">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+					<div class="splash"></div>
+				</div>
+			</div>
+			<div class="mobile-menu">
+				<ul class="header-list">
+					<li class="header-li ">
+						<a class="header-link" href="./idea.html">Идеи</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="./strategy.html">Стратегии</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="./express.html">Экспресс-анализ</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="./statistic.html">Статистика</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="./training.html">Обучение</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="./analytics.html">Экономический журнал</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="#">Мероприятия</a></li>
+					<li class="header-li ">
+						<a class="header-link" href="./contacts.html">Контакты</a></li>
+					<li class="header-li ">
+						<button type="button" name="login" id="header-login-m"
+								class="btn header-btn header-btn-login m-0 w-100">Вход</button></li>
+					<li class="header-li ">
+						<button type="button" name="registration"
+								class="btn header-btn header-btn-reg m-0 w-100">Реристрация</button></li>
+				</ul>
+			</div>
+		</nav> -->
+
+	</header>
+
+	<main>
+		<!-- ? Section 1 -->
+		<section class="container-fluid section-1">
+			<div class="container">
+				<div class="row">
+					<div class="col pl-xl-0 pr-xl-0 col-xl-6 flex-column m-auto">
+						<h1 class="section-title">
+							Инвестируй не отвлекаясь от жизни
+						</h1>
+						<h2 class="section-descr">
+							Уникальный инвестиционный сервис. Мы предоставляем:
+							инвестиционные идеи, готовые инвестиционные портфели,
+							обзоры фондового рынка, статьи. Профессиональная
+							аналитическая поддержка онлайн, сервис автоматического
+							ведения портфелей.
+						</h2>
+						<button class="btn btn-green">
+							Попробовать бесплатно
+						</button>
+					</div>
+					<div class="col d-none d-md-inline-block pl-xl-0 pr-xl-0">
+						<div class="section-1-img-container">
+							<img src="./images/dist/main-page-section-1-img.png"
+								class="img-fluid section-1-img d-none d-md-inline-block" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container section-1-cards">
+				<div class="row">
+					<div class="col-12 pl-xl-0 col-lg-3 align-items-start d-flex">
+						<img class="d-none d-md-block sec-img-1" src="./images/dist/main-page-section-2-strat-icon.svg" alt="">
+						<span class="section-1-stat">5</span>
+						<span class="section-1-stat-desr">уникальных
+							стратегий</span>
+					</div>
+					<div class="col-12 col-lg-3 align-items-start d-flex">
+						<img class="d-none d-md-block sec-img-2" src="./images/dist/main-page-section-2-exp-years.svg" alt="">
+						<span class="section-1-stat">8</span>
+						<span class="section-1-stat-desr">лет <br>
+							работы</span>
+					</div>
+					<div class="col-12 col-lg-3 align-items-start d-flex">
+						<img class="d-none d-md-block sec-img-3" src="./images/dist/main-page-section-2-inpact.svg" alt="">
+						<span class="section-1-stat perc">99</span>
+						<span class="section-1-stat-desr">идей <br>
+							с прибалью</span>
+					</div>
+					<div class="col-12 pr-xl-0 col-lg-3 align-items-start d-flex">
+						<img class="d-none d-md-block sec-img-4" src="./images/dist/main-page-section-2-works.svg" alt="">
+						<span class="section-1-stat stat">50</span>
+						<span class="section-1-stat-desr">инвестиционный <br>
+							опыт</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ? Section 2-->
+		<section class="container-fluid section-2">
+			<div class="container">
+				<div class="row">
+					<div class="col pl-xl-0 pr-xl-0">
+						<h2 class="section-title section-title-main">
+							Попробуйте бесплатно
+						</h2>
+						<article class="section-2-content">
+							<p class="section-descr">Подписка на сервис позволит вам инвестировать, затрачивая минимум
+								времени. Для вас ежедневно работает команда профессионалов.
+							</p>
+							<p class="section-descr m-0">Попробуйте подписку и получите уже сейчас:</p>
+							<ul class="dash-li">
+								<li>ежедневные идеи</li>
+								<li>готовые инвестиционные стратегии</li>
+								<li>авторская аналитика</li>
+								<li>ответы на вопросы в онлайн-режиме</li>
+								<li>сигналы в реальном времени</li>
+							</ul>
+							<p class="section-descr">Уникальный сервис автоматического повторения сделок - инвестируйте
+								не отвлекаясь от своих дел. Сервис проверен Банком России.
+							</p>
+							<p class="section-descr">
+								Присоединяйтесь к нашему сообществу инвесторов!
+							</p>
+						</article>
+						<button class="btn btn-green">
+							Попробовать бесплатно
+						</button>
+					</div>
+					<div class="w-100 d-xl-none d-block"></div>
+					<div class="col d-flex d-xl-flex flex-wrap flex-lg-wrap sec-2-card-list">
+						<div class="sec-2-card">
+							<img src="./images/dist/main-page-section-3-1.svg" alt="">
+							<p class="card-title">Результативные <br>
+								инвестиционные идеи и стратегии</p>
+							<p class="card-descr">Получайте еженедельные
+								инвестиционные идеи и следите
+								за долгосрочными стратегиями</p>
+						</div>
+						<div class="sec-2-card">
+							<img src="./images/dist/main-page-section-3-2.svg" alt="">
+							<p class="card-title">Авторская аналитика <br>
+								и обзоры</p>
+							<p class="card-descr">Ежедневный обзор рынка,
+								ситуативные разборы новостей,
+								участие в ежемесячных вебинарах
+								"Клуба инвесторов"</p>
+						</div>
+						<div class="sec-2-card">
+							<img src="./images/dist/main-page-section-3-3.svg" alt="">
+							<p class="card-title">Ответы на вопросы и <br>
+								торговые сигналы - онлайн</p>
+							<p class="card-descr">Ответы на вопросы от
+								профессионалов, общение в чате
+								инвесторов, мгновенные сигналы
+								по стратегиям и идеям</p>
+						</div>
+						<div class="sec-2-card">
+							<img src="./images/dist/main-page-section-3-4.svg" alt="">
+							<p class="card-title">Автоматическое повторение <br> 
+								сделок</p>
+							<p class="card-descr">Возможность автоматического
+								повторения сделок по стратегиям.
+								Проверено Банком России.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ? Section 3 -->
+		<section class="container-fluid section-3">
+			<div class="container">
+				<div class="col pl-xl-0 pr-xl-0">
+					<h2 class="section-title section-title-main">
+						Наши стратегии
+					</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg col-12 pl-xl-0 pr-xl-0 align-self-start sec-3-card-container">
+						<!-- ? Cards -->
+						<div class="sec-3-card d-flex flex-wrap" id="sec-3-1">
+							<img src="./images/dist/main-page-section-4-1.svg" alt=""
+								class="card-img align-items-center">
+							<span class="card-title w-100">
+								Клуб инвесторов
+							</span>
+							<span class="card-descr w-100">
+								Максимум, для тех, кто <br>
+								уверен
+							</span>
+							<span class="card-percent w-100">
+								+23,5%
+							</span>
+							<span class="card-date w-100">
+								Срок: 22 дня
+							</span>
+							<button class="btn btn-green sec-3-btn" id="sec-3-btn-1">Подробнее</button>
+						</div>
+					</div>
+					<div class="col-lg col-12 align-self-start sec-3-card-container">
+						<div class="sec-3-card d-flex flex-wrap " id="sec-3-2">
+							<img src="./images/dist/main-page-section-4-2.svg" alt=""
+								class="card-img align-items-center">
+							<span class="card-title w-100">
+								АлгоБаффет
+							</span>
+							<span class="card-descr w-100">
+								Синергия человека и ИИ <br>
+								(искуственного интеллекта)
+							</span>
+							<span class="card-percent w-100">
+								+10,9%
+							</span>
+							<span class="card-date w-100">
+								Срок: 33 дня
+							</span>
+							<button class="btn btn-green sec-3-btn" id="sec-3-btn-2">Подробнее</button>
+						</div>
+					</div>
+					<div class="col-lg col-12 align-self-start sec-3-card-container">
+						<div class="sec-3-card d-flex flex-wrap " id="sec-3-3">
+							<img src="./images/dist/main-page-section-4-3.svg" alt=""
+								class="card-img align-items-center">
+							<span class="card-title w-100">
+								Глобальные тренды
+							</span>
+							<span class="card-descr w-100">
+								Инвестируйте в эволюцию человечества.
+								Компании которые меняют мир.
+							</span>
+							<span class="card-percent w-100">
+								+45,2%
+							</span>
+							<span class="card-date w-100">
+								Срок: 90 дней
+							</span>
+							<button class="btn btn-green sec-3-btn" id="sec-3-btn-3">Подробнее</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ? Section 4 -->
+		<section class="container-fluid section-4">
+			<div class="container">
+				<div class="row">
+					<div class="col pl-xl-0 pr-xl-0 section-4-content">
+						<h2 class="section-title section-title-main">Откройте <br>
+							все возможности</h2>
+						<p class="section-4-descr">
+							Оформите <span>подписку</span> и получите:
+						</p>
+						<ul>
+							<li>
+								<img src="./images/dist/main-page-section-5-1.svg" alt="">
+								Моментальные оповещения и
+								доступ к лучшим идеям
+							</li>
+							<li>
+								<img src="./images/dist/main-page-section-5-2.svg" alt="">
+								Приватный канал - изменения портфелей
+								и статьи без задержек, ситуативные заметки
+							</li>
+							<li>
+								<img src="./images/dist/main-page-section-5-3.svg" alt="">
+								Приоритетная консультационная
+								поддержка
+							</li>
+							<li>
+								<img src="./images/dist/main-page-section-5-4.svg" alt="">
+								Инвестиционные идеи, которых
+								нет на сайте
+							</li>
+							<li>
+								<img src="./images/dist/main-page-section-5-5.svg" alt="">
+								Полный доступ к отслеживанию стратегий.
+								Все сделки и сигналы.
+							</li>
+						</ul>
+					</div>
+					<div class="w-100 d-xl-none d-block"></div>
+					<div class="col">
+						<form class="form section-4-form">
+							<h2 class="form-title">
+								Зарегистрируйтесь
+								и попробуйте бесплатно
+								14 дней
+							</h2>
+							<input type="text" placeholder="Ваше имя">
+							<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="form-email" placeholder="Ваш e-mail:" required>
+							<button class="btn btn-green btn-form" id="form-create-acc">Создать аккаунт</button>
+							<span class="form-descr">Нажимая кнопку «Создать аккаунт» я принимаю
+								условия <a href="#">политики конфиденциальности</a></span>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ? Section 5 -->
+		<section class="container-fluid ask-answer">
+			<div class="container">
+				<div class="row">
+					<div class="col ask-answer-content">
+						<h2 class="section-title section-title-main">
+							Отвечаем на любой вопрос про инвестиции
+						</h2>
+						<div class="ask-social">
+							<a href="#">
+								<img src="./images/dist/main-page-section-6-teleg.svg" alt="">Telegram
+							</a>
+							<a href="#">
+								<img src="./images/dist/main-page-section-6-phone-icon.svg" alt="">Позвонить
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container-fluid">
+			<div class="container footer-nav">
+				<div class="row footer-content">
+					<div class="d-flex flex-nowrap align-items-start justify-content-between footer-logo">
+						<img class="d-none d-md-block" src="./images/dist/footer-logo.svg" alt="">
+						<span class="header-logo-descr ml-0 side-text">Деньги работают</span>
+					</div>
+					<div class="d-flex">
+						<ul class="footer-list">
+							<li>
+								<a href="./index.html">Главная</a>
+							</li>
+							<li>
+								<a href="./idea.html">Идеи</a>
+							</li>
+							<li>
+								<a href="./strategy.html">Стратегии</a>
+							</li>
+							<li>
+								<a href="./express.html">Экспресс-анализ</a>
+							</li>
+							<li>
+								<a href="./statistic.html">Статистика</a>
+							</li>
+							<li>
+								<a href="./training.html">Обучение</a>
+							</li>
+							<li>
+								<a href="./analytics.html">Экономический журнал</a>
+							</li>
+							<li>
+								<a href="#">Мероприятия</a>
+							</li>
+							<li>
+								<a href="./contacts.html">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="d-flex footer-social">
+						<span class="mb-3 m-xl-0 side-text social-sub social-sub-footer">Подписывайтесь на наши соц. сети:</span>
+						<div class="header-social">
+							<!-- <a href="#"><div class="img-fluid social-header-img teleg"></div></a>
+							<a href="#"><div class="img-fluid social-header-img insta"></div></a> -->
+							<ul class="social-list pl-0 mb-0">
+								<li class="telegram">
+									<a>
+										<i class="fab fa-telegram-plane"></i>
+									</a>
+								</li>
+								<li class="instagram">
+									<a>
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+							</ul>   
+						</div>
+					</div>
+					<div class="d-flex">
+						<a href="tel:+78005643309" class="number header-number footer-number mt-3 mb-3 mt-xl-0 m-xl-0">+7 800 564-33-09</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid footer-bcg">
+			<div class="container footer-bar">
+				<div class="row">
+					<div class="col d-flex flex-wrap justify-content-center justify-content-md-between align-items-md-center text-center footer-bar-content">
+						<span class="footer-bar-info">© 2020 Все права защищены</span>
+						<a href="#" class="footer-bar-info footer-bar-info-link">Согласие на обработку персональных
+							данных</a>
+						<img class="img-fluid" src="./images/dist/webmolot-logo.svg" alt="Логотип вебмолот">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<aside class="disagree container-fluid">
+		<div class="container">
+			<div class="col">
+				<p>
+					<span class="disagree-title">Отказ от ответственности</span>
+					<br>
+					Информация, размещаемая на сайте и всех сопряженных с ним ресурсах, в том числе содержащая
+					результаты исследований, прогнозы, оценки в отношении финансовых инструментов, о существе,
+					характеристиках финансового инструмента (комбинации финансовых инструментов), изменении его (их)
+					стоимости, результаты технического и (или) фундаментального анализа не является индивидуальной
+					инвестиционной рекомендацией, и финансовые инструменты либо операции, упомянутые в ней, могут не
+					соответствовать Вашему инвестиционному профилю и инвестиционным целям (ожиданиям). Определение
+					соответствия финансового инструмента либо операции Вашим интересам, инвестиционным целям,
+					инвестиционному горизонту и уровню допустимого риска является Вашей задачей.</p>
+				<p>ООО “Финам-Красноярск” не несет ответственности за возможные убытки в случае совершения операций либо
+					инвестирования в финансовые инструменты, упомянутые в информации, и не рекомендует использовать
+					указанную информацию в качестве единственного источника информации при принятии инвестиционного
+					решения. Информация не может рассматриваться в качестве гарантий или обещаний в будущем доходности
+					вложений, уровня риска, размера издержек, безубыточности инвестиций. Результат инвестирования в
+					прошлом не определяет дохода в будущем. Не является рекламой ценных бумаг. Информация, составлена на
+					основе публичных источников, признанных надежными, однако ООО “Финам-Красноярск” не несет
+					ответственности за точность приведенных в стратегии данных. Инвестирование в ценные бумаги сопряжено
+					со значительным риском, и решения об инвестициях должны приниматься инвестором самостоятельно.</p>
+				<p>Аналитические материалы ООО “Финам-Красноярск” являются внутренними документами компании, а также
+					имеют целью информирование интересующихся фондовым рынком лиц.</p>
+				<p>Владелец сайта MoneyWork ООО “Финам-Красноярск” </p>
+			</div>
+		</div>
+	</aside>
+ <!-- Modal login-->
+ <div class="modal modal-login">
+	<div class="modal-container">
+		<div class="close-modal" ></div>
+		<h2 class="modal-title">
+			Вход в личный кабинет
+		</h2>
+		<input type="tel" placeholder="Введите номер телефона" required>
+		<input type="password" placeholder="Введите пароль" required>
+		<a href="#" class="forgot">Забыли пароль?</a>
+		<button class="modal-login-btn modal-btn">Войти</button>
+		<p class="social-login">или войдите используя соц. сети</p>
+		<div class="modal-social">
+  <a href="#" class="fb-login"><img src="./images/dist/fb-icon.svg" alt=""></a>
+  <a href="#" class="vk-login"><img src="./images/dist/vk-icon.svg" alt=""></a>
+  <a href="#" class="google-login"><img src="./images/dist/google-login-icon.svg" alt=""></a>
+		</div>
+		<button class="modal-reg-btn modal-btn">Регистрация</button>
+	</div>
+  </div>
+  <!-- Modal reset pass-->
+  <div class="modal modal-reset-pass">
+	<form class="modal-container">
+		<div class="close-modal" ></div>
+		<h2 class="modal-title">
+			Восстановление пароля
+		</h2>
+		<input id="email-pass-reset" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="email" placeholder="Введите свой e-mail:" required>
+		<button type="submit" class="modal-login-btn send-reset modal-btn">Отправить</button>
+	</form>
+  </div>
+  <!-- Modal new pass-->
+  <div class="modal modal-new-pass">
+	<div class="modal-container">
+		<div class="close-modal" ></div>
+		<h2 class="modal-title">
+			Установите новый пароль
+		</h2>
+		<input type="password" placeholder="Пароль:" required>
+		<input type="password" placeholder="Пароль еще раз:" required>
+		<button class="modal-login-btn modal-btn">Сохранить</button>
+	</div>
+  </div>
+
+  <!-- Modal Registration -->
+  <div class="modal modal-register">
+	<div class="modal-container">
+		<div class="close-modal" ></div>
+		<h2 class="modal-title">
+			Регистрация
+		</h2>
+		<input type="tel" placeholder="Укажите свой телефон" required>
+		<input type="password" placeholder="Введите пароль" required>
+		<input type="password" placeholder="Повторите пароль" required>
+		<button class="modal-login-btn create-acc-btn mb-2 modal-btn">Создать аккаунт</button>
+		<button class="modal-reg-btn back-to-auth modal-btn">Вернуться к авторизации</button>
+	</div>
+  </div>
+  <!-- SMS -->
+  <div class="modal modal-sms">
+	<div class="modal-container">
+		<div class="close-modal" ></div>
+		<h2 class="modal-title">
+			Подтверждение телефона
+		</h2>
+		<input type="text" placeholder="Введите код из СМС:" required>
+		<button class="modal-login-btn send-sms modal-btn">Отправить</button>
+	</div>
+  </div>
+  <!-- Sub -->
+  <div class="modal modal-pay">
+	<div class="modal-container">
+		<div class="close-modal" ></div>
+		<h2 class="modal-title">
+			Продлить подписку
+		</h2>
+		<!-- <input type="text" placeholder="Введите код из СМС:"> -->
+		<button class="modal-login-btn pay-btn modal-btn">Отправить</button>
+	</div>
+  </div>
+  <script src="js/app.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  <script src="https://kit.fontawesome.com/0c7bfd6f67.js" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

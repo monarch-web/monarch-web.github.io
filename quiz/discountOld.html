@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Interhash</title>
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="position__point">
+            <div class="left__side">
+                <p class="question">Получите-распишитесь</p>
+                <h1 class="first__question__discount">Лови скидку на один из крупнейших<br> пулов. На <span>25%</span> ниже комиссия.</h1>
+                <h1 class="first__question__discount">Навсегда. Потому что мы любим тех,<br> кто майнит по-умному.</h1>
+                <div class="button__continue__link__discount">
+                    <a href="https://cutt.ly/VyIJ0rX" class="next__question__discount"><span>Перейти к пулу</span></a>
+                </div>
+                <a href="#" class="vip">Я хочу VIP условия</a>
+            </div>
+            <div class="right__side">
+                <p class="discount">Ваша скидка</p>
+                <div class="total__discount">25%</div>
+                <p class="condition">Чтобы воспользоваться скидкой — <br>пройдите тест целиком.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-container">
+        <div class="popup">
+            <button class="close"></button>
+            <h2 class="popup__header">Заказать консультацию</h2>
+            <form action="" class="send__form">
+                <input type="text" class="main__input" placeholder="Имя">
+                <div class="fill__form">
+                    <div class="form__select">
+                        <select>
+                            <option value="Ph">Ph</option>
+                            <option value="Gh">Gh</option>
+                            <option value="Mh">Mh</option>
+                            <option value="Ex">Ex</option>
+                        </select>
+                    </div>
+                    <input type="text" class="after__select" placeholder="Мощность">
+                </div>
+                <div class="fill__form widjet">
+                    <input type="text" id="phoneField" name="phoneField" class="phone-field" placeholder="Телефон">
+                </div>
+                <div class="fill__form">
+                    <div class="form__select">
+                        <select>
+                            <option value="Telegram">Telegram</option>
+                            <option value="Whatsapp">Whatsapp</option>
+                            <option value="Viber">Viber</option>
+                            <option value="WeChat">WeChat</option>
+                            <option value="E-mail">E-mail</option>
+                        </select>
+                    </div>
+                    <input type="text" class="after__select" placeholder="Контактные данные">
+                </div>
+                <div class="form__checkbox">
+                    <input class="form__checkbox__input" type="checkbox" id="checkbox_form_1" required>
+                    <label class="form__checkbox__label" for="checkbox_form_1">Согласен на обработку персональных данных</label>
+                </div>
+                <div class="button__send__link">
+                    <button type="submit" class="send"><span>Отправить</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.ccpicker.min.js"></script>
+    <script src="js/countryPicker.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

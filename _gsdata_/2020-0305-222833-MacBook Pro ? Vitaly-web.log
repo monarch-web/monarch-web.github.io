@@ -1,0 +1,8 @@
+2020-03-05 22:28:38: -- Analysis Started by On File Change Incremental
+2020-03-05 22:28:39: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 75
+2020-03-05 22:28:39: Left to Right: Copy File: 1 
+2020-03-05 22:28:39: == Sync Started by On File Change Incremental
+2020-03-05 22:28:40: /Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css: Source file has changed between Analyze and Sync from '[file] size=38 295 accu-time=2020-03-05 22:28:30 attr=644 cktype=0' to 'size=38 295 time=2020-03-05 22:28:39', noted in source file state
+2020-03-05 22:28:40: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/style.css' (38 295)
+2020-03-05 22:28:40: ===== Синхронизация завершена. Время 00:00:00, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2020-03-05 22:28:40: 

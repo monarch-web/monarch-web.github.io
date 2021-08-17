@@ -1,0 +1,32 @@
+@import "http://fonts.fontstorage.com/import/roboto.css";
+body {
+    background-color: #02fe09;
+}
+.slider {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.slider-item {
+    display: flex !important;
+    justify-content: center !important;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+}
+
+.slider-item:focus{
+    outline: none;
+}
+
+.slider-img {
+    margin-right: 15px;
+    width: 36px;
+    object-fit: fill;
+}

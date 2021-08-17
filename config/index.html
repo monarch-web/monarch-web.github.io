@@ -1,0 +1,1560 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Конфигуратор</title>
+	<meta name="description" content="Конфигуратор">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+
+</head>
+
+<body>
+
+<!-- <img src="./images/dist/interior/base-interior.png" alt="bcgBlur" class="bcgBlur" /> -->
+<!-- <div class="bcg--Copter">
+	<div class="copter__color"></div>
+</div> -->
+<div class="spinner">
+  <img src="./images/dist/loader.gif" alt="">
+</div>
+<div class="main__screen">
+  <div class="holder">
+<div class="bcg--Copter bcgBlurGray">
+	<div class="copter__color lazy">
+    <div class="panel__option-1 option-cdi"></div>
+    <div class="panel__option-2"></div>
+    <div class="panel__option-3 option-quartz"></div>
+    <div class="panel__option-4 option-turn"></div>
+    <div class="panel__option-5 option-horizon"></div>
+    <div class="panel__option-6 option-side-panel"></div>
+    <div class="panel__option-7 landing-gear"></div>
+    <div class="panel__option-8 windows"></div>
+  </div>
+</div>
+    <div class="top__bar">
+      <ul class="top__bar--list">
+        <div class="progress-line"></div>
+        <li id="stage-1" class="stage--done">
+          <img src="./images/dist/icons/helicopter.svg" alt="heli-icon" />
+          <span>01.</span>
+          <span>Модель</span>
+        </li>
+        <!-- <img src="./images/dist/stage-line.png" alt="" class="crumbs" /> -->
+        <li id="stage-2">
+          <img src="./images/dist/icons/paint-bucket.svg" alt="" />
+          <span>02.</span>
+          <span>Цвет и шасси</span>
+        </li>
+        <!-- <img src="./images/dist/stage-line.png" alt="" class="crumbs" /> -->
+        <li id="stage-3">
+          <img src="./images/dist/icons/safety-seat.svg" alt="" />
+          <span>03.</span>
+          <span>Интерьер</span>
+        </li>
+        <!-- <img src="./images/dist/stage-line.png" alt="" class="crumbs" /> -->
+        <li id="stage-4">
+          <img src="./images/dist/icons/speedometer.svg" alt="" />
+          <span>04.</span>
+          <span>Приборная панель</span>
+        </li>
+        <!-- <img src="./images/dist/stage-line.png" alt="" class="crumbs" /> -->
+        <li id="stage-5">
+          <img src="./images/dist/icons/battery.svg" alt="" />
+          <span>05.</span>
+          <span>Оборудование</span>
+        </li>
+        <!-- <img src="./images/dist/stage-line.png" alt="" class="crumbs" /> -->
+        <li id="stage-6">
+          <img src="./images/dist/icons/headphones.svg" alt="" />
+          <span>06.</span>
+          <span>Аксессуары</span>
+        </li>
+        <!-- <img src="./images/dist/stage-line.png" alt="" class="crumbs" /> -->
+        <li id="stage-7">
+          <img src="./images/dist/icons/finish-flag.svg" alt="" />
+          <span>07.</span>
+          <span>Обзор</span>
+        </li>
+      </ul>
+    </div>
+    <div class="swiper-container top__swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/helicopter.svg" alt="heli-icon" />
+          <span>01.</span>
+          <span>Модель</span>
+        </div>
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/paint-bucket.svg" alt="" />
+          <span>02.</span>
+          <span>Цвет и шасси</span>
+        </div>
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/safety-seat.svg" alt="" />
+          <span>03.</span>
+          <span>Интерьер</span>
+        </div>
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/speedometer.svg" alt="" />
+          <span>04.</span>
+          <span>Приборная панель</span>
+        </div>
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/battery.svg" alt="" />
+          <span>05.</span>
+          <span>Оборудование</span>
+        </div>
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/headphones.svg" alt="" />
+          <span>06.</span>
+          <span>Аксессуары</span>
+        </div>
+        <div class="swiper-slide mob__li">
+          <img src="./images/dist/icons/finish-flag.svg" alt="" />
+          <span>07.</span>
+          <span>Обзор</span>
+        </div>
+      </div>
+      <div class="swiper-button-next top-next"></div>
+      <div class="swiper-button-prev top-prev"></div>
+    </div>
+
+<!-- ! STAGE 1 MODEL -->
+    <div class="main__section stage stage-1">
+      <!-- Slider main container -->
+      <div class="swiper-container main__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/raven-2.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Raven II</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Turbine-Marine.png"
+                  />
+              </div>
+              <h3 class="model__name">R66 Turbine Marine</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Turbine.png"
+                  />
+              </div>
+              <h3 class="model__name">R66 Turbine</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Clipper-II-Fixed.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Clipper II Fixed</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Clipper-II-Popout.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Clipper II Popout</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Raven-I.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Raven I</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Clipper-I.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Clipper I</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Cadet.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Cadet</h3>
+            </div>
+          </div>
+          <div class="swiper-slide card__slide">
+            <div class="card__model">
+              <div class="model__img">
+                <!-- <img src="./images/dist/models/model-ex.png" alt=""> -->
+                  <img
+                    src="./images/dist/models/Cadet-floats.png"
+                  />
+              </div>
+              <h3 class="model__name">R44 Cadet with Floats</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar main__scrollbar"></div> -->
+      <!-- <div class="swiper-button-prev main-prev"></div> -->
+      <div class="swiper-button-next main-next"></div>
+    </div>
+   
+
+<!-- ! STAGE 2 MODEL COLOR -->
+	<div class="main__section stage stage-2">
+    <div class="windows-check">
+      <h3>
+        Тонировка
+      </h3>
+      <div class="extra__select">
+        <div class="pretty p-default p-round p-fill p-icon p-bigger">
+          <input type="checkbox" id="lob-check">
+          <div class="state">
+            <img src="./images/dist/icons/check.svg" alt="" class="icon">
+            <label>Лобовое стекло</label>
+          </div>
+        </div>
+        <div class="pretty p-default p-round p-fill p-icon p-bigger mr-0">
+          <input type="checkbox" id="windows-check">
+          <div class="state">
+            <img src="./images/dist/icons/check.svg" alt="" class="icon">
+            <label>Окна</label>
+          </div>
+        </div>
+      </div>
+    </div>
+		<div class="color__slider__holder">
+			<div class="bottom-bar__holder">
+				<h3 class="select" id="show-base-color">
+					Базовый цвет
+				</h3>
+				<div class="extra__select">
+					<div class="pretty p-default p-round p-fill p-icon p-bigger">
+						<input type="checkbox" id="logo-check">
+						<div class="state">
+							<img src="./images/dist/icons/check.svg" alt="" class="icon">
+							<label> Логотип</label>
+						</div>
+					</div>
+					<div class="pretty p-default p-round p-fill p-icon p-bigger mr-0">
+						<input type="checkbox" id="lines-check">
+						<div class="state">
+							<img src="./images/dist/icons/check.svg" alt="" class="icon">
+							<label> Линии</label>
+						</div>
+					</div>
+					<h3 class="extra__descr" id="show-trim">
+						Цвет Логотипа и Линий
+					</h3>
+				</div>
+			</div>
+			<div class="swiper-container select-color-slider base-color-wrapper">
+				
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper " id="refresh-colors">
+				<!-- Slides -->
+				<div class="swiper-slide color__slide" id="base__white">
+					<div class="color__cirle white"></div>
+					<div class="color__info">
+						<span class="color__name">White</span >
+						<span class="color__cost">105 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__charcoal">
+					<div class="color__cirle charcoal"></div>
+					<div class="color__info">
+					<span class="color__name">Charcoal</span >
+					<span class="color__cost">95 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__khaki">
+					<div class="color__cirle khaki"></div>
+					<div class="color__info">
+						<span class="color__name">Khaki</span >
+						<span class="color__cost">75 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__ferrara">
+					<div class="color__cirle ferrara"></div>
+					<div class="color__info">
+					<span class="color__name">Ferrara red</span >
+					<span class="color__cost">100 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__orange">
+					<div class="color__cirle orange"></div>
+					<div class="color__info">
+					<span class="color__name">Orange</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__yellow">
+					<div class="color__cirle yellow"></div>
+					<div class="color__info">
+					<span class="color__name">Yellow</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__astra">
+					<div class="color__cirle astra-blue"></div>
+					<div class="color__info">
+					<span class="color__name">Arista Blue</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__black">
+					<div class="color__cirle black"></div>
+					<div class="color__info">
+					<span class="color__name">Black</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__silver">
+					<div class="color__cirle bright-silver"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Bright Silver Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__charmetall"> 
+					<div class="color__cirle charcoal-metallic"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Charcoal Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__sandmetall">
+					<div class="color__cirle sand-metallic"></div>
+					<div class="color__info">
+					<span class="color__name">Sand Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__gold">
+					<div class="color__cirle medium-gold"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Medium Gold Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__orangemetall">
+					<div class="color__cirle orange-metallic"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Orange Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__volcano">
+					<div class="color__cirle volcano"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Volcano Red Pearl Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__redmetall">
+					<div class="color__cirle red-metallic"></div>
+					<div class="color__info">
+					<span class="color__name">Red Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__purplemetall">
+					<div class="color__cirle puprle-metallic"></div>
+					<div class="color__info">
+					<span class="color__name">Purple Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__viper">
+					<div class="color__cirle viper-metallic"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Viper Blue Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__darkblue">
+					<div class="color__cirle dark-blue-metallic"></div>
+					<div class="color__info">
+					<span class="color__name long--color-name">Dark Blue Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__sherwoodmetall">
+					<div class="color__cirle sherwood-metallic"></div>
+					<div class="color__info">
+				   <span class="color__name long--color-name">Sherwood Green Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide" id="base__blackmetall">
+					<div class="color__cirle black-metallic"></div>
+					<div class="color__info">
+				   <span class="color__name">Black Metallic</span >
+					<span class="color__cost">145 000 </span>
+					</div>
+				</div>
+			
+				</div>
+        
+				<!-- If we need navigation buttons -->
+				
+			
+				<div class="swiper-scrollbar color__scrollbar custom__scroll"></div>
+			</div>
+      <div class="swiper-button-prev color-prev"></div>
+			  <div class="swiper-button-next color-next"></div>
+			<div class="swiper-container select-trim-slider trim-wrapper">
+				
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper ">
+          <!-- Slides -->
+          <div class="swiper-slide trim__slide" id="trim__white">
+            <div class="trim__cirle white"></div>
+            <div class="trim__info">
+              <span class="trim__name">White</span >
+              <span class="trim__cost">105 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__charcoal">
+            <div class="trim__cirle charcoal"></div>
+            <div class="trim__info">
+            <span class="trim__name">Charcoal</span >
+            <span class="trim__cost">95 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__khaki">
+            <div class="trim__cirle khaki"></div>
+            <div class="trim__info">
+              <span class="trim__name">Khaki</span >
+              <span class="trim__cost">75 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__ferrara">
+            <div class="trim__cirle ferrara"></div>
+            <div class="trim__info">
+            <span class="trim__name">Ferrara red</span >
+            <span class="trim__cost">100 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__orange">
+            <div class="trim__cirle orange"></div>
+            <div class="trim__info">
+            <span class="trim__name">Orange</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__yellow">
+            <div class="trim__cirle yellow"></div>
+            <div class="trim__info">
+            <span class="trim__name">Yellow</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__astra">
+            <div class="trim__cirle astra-blue"></div>
+            <div class="trim__info">
+            <span class="trim__name">Arista Blue</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__black">
+            <div class="trim__cirle black"></div>
+            <div class="trim__info">
+            <span class="trim__name">Black</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__silver">
+            <div class="trim__cirle bright-silver"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Bright Silver Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__charmetall"> 
+            <div class="trim__cirle charcoal-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Charcoal Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__sandmetall">
+            <div class="trim__cirle sand-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name">Sand Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__gold">
+            <div class="trim__cirle medium-gold"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Medium Gold Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__orangemetall">
+            <div class="trim__cirle orange-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Orange Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__volcano">
+            <div class="trim__cirle volcano"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Volcano Red Pearl Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__redmetall">
+            <div class="trim__cirle red-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name">Red Metallic </span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__purplemetall">
+            <div class="trim__cirle puprle-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name">Purple Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__viper">
+            <div class="trim__cirle viper-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Viper Blue Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__darkblue">
+            <div class="trim__cirle dark-blue-metallic"></div>
+            <div class="trim__info">
+            <span class="trim__name long--trim-name">Dark Blue Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__sherwoodmetall">
+            <div class="trim__cirle sherwood-metallic"></div>
+            <div class="trim__info">
+             <span class="trim__name long--trim-name"> Sherwood Green Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="swiper-slide trim__slide" id="trim__blackmetall">
+            <div class="trim__cirle black-metallic"></div>
+            <div class="trim__info">
+             <span class="trim__name">Black Metallic</span >
+            <span class="trim__cost">145 000 </span>
+            </div>
+          </div>
+        
+          </div>
+        
+				<!-- If we need navigation buttons -->
+				
+			
+				<div class="swiper-scrollbar color__scrollbar custom__scroll"></div>
+			</div>
+      <div class="swiper-button-prev trim-prev"></div>
+			<div class="swiper-button-next trim-next"></div>
+			
+		</div>
+	</div>
+
+<!-- ! STAGE 3 INTERIOR-->
+<div class="bottom-bar__holder" id="stage-3-extras">
+  <h3>Опции</h3>
+  <div class="extra__select">
+    <div class="pretty p-default p-round p-fill p-icon p-bigger">
+      <input type="checkbox" id="sitHot">
+      <div class="state">
+        <img src="./images/dist/icons/check.svg" alt="" class="icon stage-3-extras-img">
+        <label> Обогрев сидений</label>
+      </div>
+    </div>
+    <div class="pretty p-default p-round p-fill p-icon p-bigger mr-0">
+      <input type="checkbox" id="additionalBelt">
+      <div class="state">
+        <img src="./images/dist/icons/check.svg" alt="" class="icon stage-3-extras-img">
+        <label> Доп. ремни</label>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main__section stage stage-3">
+ 
+    <div class="color__slider__holder">
+			<div class="swiper-container select-interior-slider">
+				
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide color__slide color__interior__slide">
+					<div class="bottom-bar__holder">
+						<h3>
+							Материал
+						</h3>
+					</div>
+					<div class="interior__color" id="tan-lether">
+						<div class="color__cirle tan-lether "></div>
+						<div class="color__info">
+							<span class="color__name">Светло-коричневая кожа</span >
+							<span class="color__cost">95 000 </span>
+						</div>
+					</div>
+					<div class="interior__color" id="dark-grey-lether">
+						<div class="color__cirle dark-grey-lether"></div>
+							<div class="color__info">
+							<span class="color__name">Темно-серая кожа</span >
+							<span class="color__cost">45 000 </span>
+						</div>
+					</div>
+					<div class="interior__color" id="grey-lether">
+						<div class="color__cirle grey-lether"></div>
+						<div class="color__info">
+							<span class="color__name">Cерая кожа</span >
+							<span class="color__cost">105 000 </span>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="swiper-slide color__slide color__interior__slide">
+					<div class="bottom-bar__holder">
+						<h3>
+							Лобовое стекло
+						</h3>
+					</div>
+					<div class="interior__color">
+						<div class="color__cirle full-black"></div>
+						<div class="color__info">
+							<span class="color__name">Тонированные</span >
+							<span class="color__cost">145 000 </span>
+						</div>
+					</div>
+					<div class="interior__color">
+						<div class="color__cirle white"></div>
+							<div class="color__info">
+							<span class="color__name">Стандарт</span >
+							<span class="color__cost">145 000 </span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide color__slide color__interior__slide">
+					<div class="bottom-bar__holder">
+						<h3>
+							Окна
+						</h3>
+					</div>
+					<div class="interior__color">
+						<div class="color__cirle full-black"></div>
+						<div class="color__info">
+							<span class="color__name">Тонированные</span >
+							<span class="color__cost">145 000 </span>
+						</div>
+					</div>
+					<div class="interior__color">
+						<div class="color__cirle white"></div>
+							<div class="color__info">
+							<span class="color__name">Стандарт</span >
+							<span class="color__cost">145 000 </span>
+						</div>
+					</div>
+				</div>	 -->
+			
+				</div>
+				<!-- If we need navigation buttons -->
+				
+			
+			
+			</div>
+      <div class="swiper-scrollbar color__scrollbar-interior custom__scroll"></div>
+			<div class="swiper-button-prev interior-prev"></div>
+			<div class="swiper-button-next interior-next"></div>
+</div>
+  </div>
+
+<!-- ! STAGE 4 PANELS-->
+<div class="main__section stage stage-4">
+  <button class="btn-show-panel btn" id="show-panel">Показать панель</button>
+  <div class="panel__slider__holder">
+    <div class="swiper-container panel-slider">
+      
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper" id="refresh">
+      <!-- Slides -->
+      <div class="swiper-slide panel__slide many-slides">
+        <div class="bottom-bar__holder">
+          <h3>
+            Панели / PFD и MFD
+          </h3>
+        </div>
+        <div class="panel__item" id="holes-8">
+          <div class="panel__cirle hole-8 panel--item " ></div>
+          <div class="panel__info">
+            <span class="panel__name">8-Hole</span >
+            <span class="panel__cost">45 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>8 отверстий с PFD: Aspen EFD1000H Pilot</span>
+          </div>
+        </div>
+        <div class="panel__item" id="xi-650">
+          <div class="panel__cirle xi650 panel--item"></div>
+            <div class="panel__info">
+            <span class="panel__name">8-Hole 650Xi</span >
+            <span class="panel__cost">65 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>8-Hole with Garmin 650Xi</span>
+          </div>
+        </div>
+        <div class="panel__item" id="GTN635xi">
+          <div class="panel__cirle xi635 panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">8-Hole 635Xi</span >
+            <span class="panel__cost">75 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>8-Hole with Garmin 635Xi</span>
+          </div>
+        </div>
+        <div class="panel__item" id="EFD1000HPilot">
+          <div class="panel__cirle hole-8-pfd panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">8-Hole with PFD</span >
+            <span class="panel__cost">85 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>8-Hole with PFD</span>
+          </div>
+        </div>
+        <div class="panel__item" id="HProHSI-1000">
+          <div class="panel__cirle hole-8-pfd-hsi panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">8-Hole with PFD</span >
+            <span class="panel__cost">95 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>8-Hole with PFD (with HSI)</span>
+          </div>
+        </div>
+        <div class="panel__item" id="LTXi700">
+          <div class="panel__cirle g500h700l panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">G500H 700L TXi</span >
+            <span class="panel__cost">35 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>PFD/MFD: Garmin G500H 700L TXi</span>
+          </div>
+        </div>
+        <div class="panel__item" id="TXi1060">
+          <div class="panel__cirle g500h1060l panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">G500H 1060 TXi</span >
+            <span class="panel__cost">65 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>PFD/MFD: Garmin G500H 1060 TXi</span>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide panel__slide many-slides">
+        <div class="bottom-bar__holder">
+          <h3>
+            Доп. инструменты
+          </h3>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle garmin650XiGPS_COM_NAV panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">650Xi GPS/COM/NAV</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GTN 650Xi GPS/COM/NAV</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle garminGTN650XiGPS_COM panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">650Xi GPS/COM</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GTN 650Xi GPS/COM</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle garminGTN750XiGPS_COM panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">750Xi GPS/COM</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GTN 750Xi GPS/COM</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle garminGTN750XiGPS_COM_NAV panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">750Xi GPS/COM/NAV</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GTN 750Xi GPS/COM/NA</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle mechArtiHorSlipSkid panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Artificial Horizon</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Mechanical Artificial Horizon with Slip Skid</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle digArtHorwithLCDSlipSkid panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Artificial Horizon</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Digital Artificial Horizon with LCD and Slip Skid</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle directionalGyro panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Directional Gyro</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Directional Gyro (Mechanical Gyro)</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle cdi panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">CDI</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>CDI</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle turnCoordinator panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Turn Coordinator</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Turn Coordinator</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle radarAltimeter panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Radar Altimeter</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Radar Altimeter</span>
+          </div>
+        </div>
+        <!-- <div class="panel__item">
+          <div class="panel__cirle radarAbovePanel panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Radar Altimeter</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Radar Altimeter (Above Panel)</span>
+          </div>
+        </div> -->
+        <div class="panel__item">
+          <div class="panel__cirle spidertracksTracking panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">GPS Fleet Tracking</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Spidertracks GPS Fleet Tracking</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle quartzClock panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Quartz Clock</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Quartz Clock</span>
+          </div>
+        </div>
+        <div class="panel__item">
+          <div class="panel__cirle digitalChronometer panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Digital hronometer</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Digital hronometer</span>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="swiper-slide panel__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Высотомер
+          </h3>
+        </div>
+        <div class="panel__item" id="altStandart">
+          <div class="panel__cirle in-HgAltimeterStandard panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">In-Hg Altimeter (Standard)</span >
+            <span class="panel__cost">0 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>In-Hg Altimeter (Standard)</span>
+          </div>
+        </div>
+        <div class="panel__item" id="altExchange">
+          <div class="panel__cirle metersAltimeterExchange panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Meters Altimeter (Exchange)</span >
+            <span class="panel__cost">0 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Meters Altimeter (Exchange)</span>
+          </div>
+        </div>
+        <div class="panel__item" id="millibar">
+          <div class="panel__cirle millibarAltimeterExchange panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Millibar Altimeter (Exchange)</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Millibar Altimeter (Exchange)</span>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="swiper-slide panel__slide">
+        <div class="bottom-bar__holder">
+          <h3>
+            Компас
+          </h3>
+        </div>
+        <div class="panel__item" id="compass">
+          <div class="panel__cirle magneticCompassStandard panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Magnetic Compass (Standard)</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Magnetic Compass (Standard)</span>
+          </div>
+        </div>
+        <div class="panel__item" id="compassExchange">
+          <div class="panel__cirle verticalCardCompassExchange panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Vertical Card Compass</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Vertical Card Compass (Exchange)</span>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="swiper-slide panel__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Индикатор вертикальной скорости
+          </h3>
+        </div>
+        <div class="panel__item" id="instantIndicator">
+          <div class="panel__cirle instantIndicator panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Speed Indicator</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Instantaneous Vertical Speed Indicator (Exchange)</span>
+          </div>
+        </div>
+        <div class="panel__item" id="speedIndicator">
+          <div class="panel__cirle standartIndicator panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Speed Indicator</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Vertical Speed Indicator (Standard)</span>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="swiper-slide panel__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Стандартный COM
+          </h3>
+        </div>
+        <div class="panel__item" id="com">
+          <div class="panel__cirle standartCom panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Standard COM</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Standard COM (Garmin GTR 225B)</span>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="swiper-slide panel__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Аудио панель
+          </h3>
+        </div>
+        <div class="panel__item" id="standartAudio">
+          <div class="panel__cirle standartAudio panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Audio Controller</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GMA 350Hc Audio Controller</span>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="swiper-slide panel__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Транспондер
+          </h3>
+        </div>
+        <div class="panel__item" id="transponderGTX335">
+          <div class="panel__cirle transponderOut panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Garmin GTX 335</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GTX 335 Transponder with ADS-B Out</span>
+          </div>
+        </div>
+        <div class="panel__item" id="transponderGTX345">
+          <div class="panel__cirle transponderExchange panel--item"></div>
+          <div class="panel__info">
+            <span class="panel__name">Garmin GTX 345</span >
+            <span class="panel__cost">145 000 </span>
+          </div>
+          <div class="more__panel__info">
+            <span>Garmin GTX 345 Transponder with ADS-B In/Out (Exchange)</span>
+          </div>
+        </div>
+
+       
+      </div>
+    
+      
+    
+      </div>
+      <!-- If we need navigation buttons -->
+       
+    </div>
+    <div class="swiper-scrollbar panel__scrollbar custom__scroll"></div>
+
+</div>
+<div class="swiper-button-prev panel-prev"></div>
+<div class="swiper-button-next panel-next"></div>
+</div>
+
+<!-- ! STAGE 5 EQUIP -->
+<div class="main__section stage stage-5">
+  <div class="equip__slider__holder">
+    <div class="swiper-container equip-slider">
+      
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+      <!-- Slides -->
+
+    
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Кондиционер
+          </h3>
+        </div>
+        <div class="equip__item" id="condit">
+          <div class="equip__cirle condit equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Кондиционер</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Батарейка
+          </h3>
+        </div>
+        <div class="equip__item" id="battery-1">
+          <div class="equip__cirle battery-1 equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Батарея</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Heated Pitot Tube
+          </h3>
+        </div>
+        <div class="equip__item" id="pilot-tube">
+          <div class="equip__cirle pilot--tube equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Трубка с подогрева?</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Upper Sheave
+          </h3>
+        </div>
+        <div class="equip__item" id="sheave">
+          <div class="equip__cirle upper-sheave equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Metallized Upper Sheave</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="equip__item" id="sheave-ex">
+          <div class="equip__cirle upper-sheave-ex equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Metallized Upper Sheave (Exchange)</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Corrosion Protection
+          </h3>
+        </div>
+        <div class="equip__item" id="extraProtect">
+          <div class="equip__cirle extra--protect equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Защита от коррозии</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Strobe Light
+          </h3>
+        </div>
+        <div class="equip__item" id="strobe">
+          <div class="equip__cirle forward--strobe equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Стробоскоб</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            External Power
+          </h3>
+        </div>
+        <div class="equip__item" id="exPower">
+          <div class="equip__cirle external-power equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">External Power Receptacle</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Second Hourmeter
+          </h3>
+        </div>
+        <div class="equip__item" id="secondHourmeter">
+          <div class="equip__cirle secondHourmeter equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Second Hourmeter</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Spindle Boots
+          </h3>
+        </div>
+        <div class="equip__item" id="spindle">
+          <div class="equip__cirle spindle--boots equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Пыльник</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="equip__item" id="spindle-cold">
+          <div class="equip__cirle spindle--boots-cold equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Пыльник Cold</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide equip__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            ELT
+          </h3>
+        </div>
+        <div class="equip__item" id="kannad">
+          <div class="equip__cirle kannad equip__item"></div>
+          <div class="equip__info">
+            <span class="equip__name">Kannad</span >
+            <span class="equip__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+
+    
+      </div>
+      <!-- If we need navigation buttons -->
+       
+    </div>
+    <div class="swiper-scrollbar equip__scrollbar custom__scroll"></div>
+
+</div>
+<div class="swiper-button-prev equip-prev"></div>
+<div class="swiper-button-next equip-next"></div>
+</div>
+<!-- ! SATGE 6 ACCESS -->
+<div class="main__section stage stage-6">
+  <div class="access__slider__holder">
+    <div class="swiper-container access-slider">
+      
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide access__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Cockpit Video Camera
+          </h3>
+        </div>
+        <div class="access__item" id="camera-stand">
+          <div class="access__cirle camera-stand access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Camera</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="access__item" id="camera-air">
+          <div class="access__cirle camera-air access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Camera</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+        </div>
+      <div class="swiper-slide access__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Headset
+          </h3>
+        </div>
+          <div class="access__item" id="headset">
+            <div class="access__cirle headset access__item"></div>
+            <div class="access__info">
+              <span class="access__name">Headset</span >
+              <span class="access__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="access__item" id="headset-bose">
+            <div class="access__cirle headset-bose access__item"></div>
+            <div class="access__info">
+              <span class="access__name">Headset</span >
+              <span class="access__cost">145 000 </span>
+            </div>
+          </div>
+
+        </div>
+      <div class="swiper-slide access__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Fire Bracket
+          </h3>
+        </div>
+ 
+        <div class="access__item" id="fire-bracket">
+          <div class="access__cirle fire-bracket access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Fire Bracket</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+
+        </div>
+    
+      <div class="swiper-slide access__slide ">
+        <div class="bottom-bar__holder">
+          <h3>
+            Accessory Bars & USB Ports
+          </h3>
+        </div>
+ 
+        <div class="access__item" id="aft-seat">
+          <div class="access__cirle aft-seat access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Aft Seat USB Ports</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="access__item" id="pilot-usb">
+          <div class="access__cirle pilot-usb access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Pilot-side USB</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="access__item" id="left-usb">
+          <div class="access__cirle left-usb access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Left-side USB</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="access__item" id="both-usb">
+          <div class="access__cirle both-usb access__item"></div>
+          <div class="access__info">
+            <span class="access__name">Both Forward USB</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+        <div class="access__item" id="flight-stream">
+          <div class="access__cirle flight-stream access__item"></div>
+          <div class="access__info">
+            <span class="access__name">flight stream 510</span >
+            <span class="access__cost">145 000 </span>
+          </div>
+        </div>
+
+        </div>
+        <div class="swiper-slide access__slide ">
+          <div class="bottom-bar__holder">
+            <h3>
+              Прочее
+            </h3>
+          </div>
+   
+          <div class="access__item" id="extended-pedals">
+            <div class="access__cirle extended-pedals access__item"></div>
+            <div class="access__info">
+              <span class="access__name">Extended Pedals</span >
+              <span class="access__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="access__item" id="leather-seat">
+            <div class="access__cirle leather-seat access__item"></div>
+            <div class="access__info">
+              <span class="access__name">Leather Seat</span >
+              <span class="access__cost">145 000 </span>
+            </div>
+          </div>
+          <div class="access__item" id="velur-seat">
+            <div class="access__cirle velur-seat access__item"></div>
+            <div class="access__info">
+              <span class="access__name">Velur Seat</span >
+              <span class="access__cost">145 000 </span>
+            </div>
+          </div>
+  
+          </div>
+      
+    
+      </div>
+      <!-- If we need navigation buttons -->
+       
+    </div>
+    <div class="swiper-scrollbar access__scrollbar custom__scroll"></div>
+
+</div>
+<div class="swiper-button-prev access-prev"></div>
+<div class="swiper-button-next access-next"></div>
+</div>
+
+<div class="main__section stage stage-7">
+  <div class="document">
+    
+  </div>
+</div>
+</div>
+
+<!-- * Blur -->
+<div class="blur-mob">
+
+</div>
+<!-- ! SIDE BAR -->
+  <div class="side__bar">
+    <div class="side__header">
+      <div>
+        <span class="logo-first"
+          >Aero<span class="logo-second">union</span></span
+        >
+        <span class="logo-descr"> вертолетная компания </span>
+      </div>
+    </div>
+    <div class="side__body">
+      <h3>Ваш выбор:</h3>
+      <ul>
+        <li>Модель: <span id="currentModel"></span></li>
+        <li>Базовый цвет: <span id="currentColor"></span></li>
+        <li>Цвет отделки: <span id="currentInteriror"></span></li>
+        <li>Схема: <span></span></li>
+        <li>Шасси: <span></span></li>
+      </ul>
+    </div>
+    <div class="side__footer">
+      <div class="price--holder">
+        <h4>Стоимость составит:</h4>
+        <span class="final--price" > <span id="summaryCost">0</span> ₽ </span>
+      </div>
+      <button class="btn-next btn" id="next-btn">Далее</button>
+    </div>
+  </div>
+  <div class="mobile__bar">
+    <h4>Стоимость: <span id="summaryCostMob"></span></h4>
+    <div class="buttons__bar">
+      <button class="call__side btn" id="call__side">Подробнее</button>
+      <button class="btn-next btn" id="next-btn-mob">Далее</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+	<script src="js/app.min.js"></script>
+	<script>
+		// Model select Slider
+		const swiper = new Swiper(".main__swiper", {
+		  // Optional parameters
+		  slidesPerView: "auto",
+		  centeredSlidesBounds: true,
+		  // freeMode: true,
+		  // Navigation arrows
+		  navigation: {
+			nextEl: ".swiper-button-next.main-next",
+			prevEl: ".swiper-button-prev.main-prev",
+		  },
+	  
+		  // // And if we need scrollbar
+		  scrollbar: {
+			el: ".swiper-scrollbar.main__scrollbar",
+		  },
+		  breakpoints: {
+			// when window width is >= 320px
+			320: {
+			  slidesPerView: "1",
+			  direction: "horizontal"
+			},
+			768: {
+			  direction: "vertical",
+			},
+			1024: {
+			  direction: "vertical",
+			  slidesPerColumn: "2",
+			},
+		  },
+		});
+
+		
+		
+	  </script>
+
+</body>
+</html>

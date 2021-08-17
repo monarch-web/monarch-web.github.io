@@ -1,0 +1,33 @@
+.videos table td:nth-child(1) {
+    text-align: left;
+    padding-left: 20px;
+}
+.videos table td:nth-child(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    .tables-block table th {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+
+    .tables-block table td {
+        font-size: 16px;
+    }
+
+
+    .videos table td:nth-child(1) {
+        width: 26%;
+    }
+    .videos table tr td:nth-child(2) {
+        width: 55%;
+        text-align: left;
+    }
+    .videos table td:nth-child(3) {
+        width: 44%;
+    }
+
+}

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 5</title>
+	<meta name="description" content="Конфигуратор">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<!-- Slider main container -->
+
+<div class="test">
+    
+</div>
+ 
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+
+</script>
+
+	<script src="js/app.min.js"></script>
+	<script>
+		// Model select Slider
+		const swiper = new Swiper(".main__swiper", {
+		  // Optional parameters
+		  slidesPerView: "auto",
+		  centeredSlidesBounds: true,
+		  // freeMode: true,
+		  // Navigation arrows
+		  navigation: {
+			nextEl: ".swiper-button-next.main-next",
+			prevEl: ".swiper-button-prev.main-prev",
+		  },
+	  
+		  // // And if we need scrollbar
+		  scrollbar: {
+			el: ".swiper-scrollbar.main__scrollbar",
+		  },
+		  breakpoints: {
+			// when window width is >= 320px
+			320: {
+			  slidesPerView: "1",
+			  direction: "horizontal"
+			},
+			768: {
+			  direction: "vertical",
+			},
+			1024: {
+			  direction: "vertical",
+			  slidesPerColumn: "2",
+			},
+		  },
+		});
+
+		
+		
+	  </script>
+
+</body>
+</html>

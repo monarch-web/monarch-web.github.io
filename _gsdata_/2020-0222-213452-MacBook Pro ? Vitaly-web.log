@@ -1,0 +1,15 @@
+2020-02-22 21:34:52: On File Change Monitoring started on file:///Users/vitaly/Documents/GitHub/Monarch-Web-Studio
+2020-02-22 21:34:54: File Monitoring not available on: sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html
+2020-02-22 21:34:54: Remote File System with No monitoring, disconnect
+2020-02-22 21:34:55: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-02-22 21:34:57: Изменений: 6, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 64
+2020-02-22 21:34:57: Left to Right: Copy File: 5 Delete File: 1 
+2020-02-22 21:34:57: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-02-22 21:34:57: Удалён Файл 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/header.html'
+2020-02-22 21:34:58: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/sprite.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/sprite.css' (858)
+2020-02-22 21:34:58: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/style.css' (23 852)
+2020-02-22 21:34:59: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/swiper.min.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/swiper.min.css' (15 620)
+2020-02-22 21:34:59: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/index.html' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/index.html' (11 078)
+2020-02-22 21:35:00: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/js/script.js' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/js/script.js' (3 000)
+2020-02-22 21:35:01: ===== Синхронизация завершена. Время 00:00:04, Скорость: 26,04 KB/s файлов/сек =====, Синхронизировано: 6, Ошибок: 0
+2020-02-22 21:35:01: 

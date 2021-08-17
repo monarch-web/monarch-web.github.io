@@ -1,0 +1,7 @@
+2020-02-22 21:45:20: -- Analysis Started by On File Change, After Delay
+2020-02-22 21:45:20: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 64
+2020-02-22 21:45:20: Left to Right: Copy File: 1 
+2020-02-22 21:45:20: == Sync Started by On File Change, After Delay
+2020-02-22 21:45:21: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/js/script.js' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/js/script.js' (2 733)
+2020-02-22 21:45:22: ===== Синхронизация завершена. Время 00:00:02, Скорость: 2,73 KB/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2020-02-22 21:45:22: 

@@ -1,0 +1,24 @@
+@media (max-width: 1024px){
+    .tables-block table tr td:nth-child(2) {
+        width: 20%;
+    }
+    .tables-block table th {
+        font-size: 19px;
+    }
+    .tables-block {
+        padding-top: 24px;
+    }
+}
+
+@media (max-width: 360px) {
+    .content {
+        max-width: 335px;
+    }
+    header {
+        width: 105%;
+    }
+
+    .mobile-events__header {
+        margin-bottom: 5px;
+    }
+}

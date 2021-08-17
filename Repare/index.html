@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кузовной ремонт</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <p>ЛОГОТИП</p>
+        </div>
+        <div class="header__rigth">
+            <div class="header__number">
+                <a href="tel:79000000000" class="phone-number">7(900)0000000</a>
+            </div>
+            <div class="header__callback">
+                <button class="callback">Заказать обратный звонок</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+            <div class="first__container">
+                <h1 class="first__title">Продажа кузовных запчастей</h1>
+                <h2 class="first__descr">с заводской покраской без пробега по РФ</h2>
+                <div class="first__advantage">
+                    <div class="first__advantage-item">
+                        <img src="img/transport_first.png" alt="">
+                        <p class="first__advantage-descr">Доставка по РФ от 3-х дней</p>
+                    </div>
+                    <div class="first__advantage-item">
+                        <img src="img/new_condition.png" alt="" class="new__condition">
+                        <p class="first__advantage-descr">Новое состояние по цене б/у</p>
+                    </div>
+                    <div class="first__advantage-item">
+                        <img src="img/list_first.png" alt="">
+                        <p class="first__advantage-descr">Наличие более 500 различных деталей</p>
+                    </div>
+                </div>
+                <div class="first__request">
+                    <div class="short__request">
+                        <button class="fast--request hvr-grow">Быстрая заявка</button>
+                        <p class="request__descr">Мы перезвоним Вам для уточнения деталей.</p>
+                    </div>
+                    <div class="full__request">
+                        <a href="#request__full hvr-grow"><button class="detaled--request hvr-grow">Подробная заявка</button></a>
+                        <p class="request__descr">Заполните подробную заявку онлайн!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second">
+            <div class="second__conteiner">
+                <div class="second__item">
+                    <img src="img/cell_second.png" alt="Наши преимущества" class="hvr-grow">
+                    <div class="second__title">
+                        Более 1000 наименований
+                    </div>
+                    <div class="second__descr">
+                        Возможность заказа и подбора более чем по 2000 наименований деталей
+                    </div>
+                </div>
+                <div class="second__item">
+                    <img src="img/lorry_second.png" alt="Наши преимущества" class="hvr-grow">
+                    <div class="second__title">
+                        Доставка в любой регион РФ
+                    </div>
+                    <div class="second__descr">
+                        Мы работаем с любой транспортной компанией и осуществляем доставку в любой регион РФ
+                    </div>
+                </div>
+                <div class="second__item">
+                    <img src="img/new_second.png" alt="Наши преимущества" class="hvr-grow">
+                    <div class="second__title">
+                        Новое состояние деталей
+                    </div>
+                    <div class="second__descr">
+                        Наши детали не были в употреблении и имеют состояние новых
+                    </div>
+                </div>
+                <div class="second__item">
+                    <img src="img/europe_second.png" alt="Наши преимущества" class="hvr-grow">
+                    <div class="second__title">
+                        Европейское качество
+                    </div>
+                    <div class="second__descr">
+                        Все наши детали привезены из Европы, что гарантирует отличное качество.
+                    </div>
+                </div>
+                <div class="second__item">
+                    <img src="img/letters_second.png" alt="Наши преимущества" class="hvr-grow">
+                    <div class="second__title">
+                        Работаем по договору
+                    </div>
+                    <div class="second__descr">
+                        Все, что мы делаем - официально. Мы заключаем договор купли-продажи и предоставляем все необходимые документыю
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="three" id="request__full">
+            <div class="three__container">
+                <h2 class="title">
+                    Подробная заявка
+                </h2>
+                <h3 class="descr">
+                    Заполните форму и получите максимально точную цену
+                </h3>
+                <form action="send.php" method="POST" class="form">
+                    <ul class="form__list">
+                        <li>
+                            <label for="mark">Марка:</label>
+                            <select name="mark" id="mark" placeholder="Выберите марку" class="request__input">
+                                <option value=""></option>
+                                <option value="ACURA">ACURA</option>
+                                <option value="ASTON MARTIN">ASTON MARTIN</option>
+                                <option value="AUDI">AUDI</option>
+                                <option value="BENTLEY">BENTLEY</option>
+                                <option value="BMW">BMW</option>
+                                <option value="BUICK">BUICK</option>
+                                <option value="CADILLAC">CADILLAC</option>
+                                <option value="CHEVROLET">CHEVROLET</option>
+                                <option value="CHRYSLER">CHRYSLER</option>
+                                <option value="DODGE">DODGE</option>
+                                <option value="FERRARI">FERRARI</option>
+                                <option value="FORD">FORD</option>
+                                <option value="GMC">GMC</option>
+                                <option value="HONDA">HONDA</option>
+                                <option value="HUMMER">HUMMER</option>
+                                <option value="HYUNDAI">HYUNDAI</option>
+                                <option value="INFINITI">INFINITI</option>
+                                <option value="ISUZU">ISUZU</option>
+                                <option value="JAGUAR">JAGUAR</option>
+                                <option value="JEEP">JEEP</option>
+                                <option value="KIA">KIA</option>
+                                <option value="LAMBORGHINI">LAMBORGHINI</option>
+                                <option value="LAND ROVER">LAND ROVER</option>
+                                <option value="LEXUS">LEXUS</option>
+                                <option value="LINCOLN">LINCOLN</option>
+                                <option value="LOTUS">LOTUS</option>
+                                <option value="MASERATI">MASERATI</option>
+                                <option value="MAYBACH">MAYBACH</option>
+                                <option value="MAZDA">MAZDA</option>
+                                <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+                                <option value="MERCURY">MERCURY</option>
+                                <option value="MINI">MINI</option>
+                                <option value="MITSUBISHI">MITSUBISHI</option>
+                                <option value="NISSAN">NISSAN</option>
+                                <option value="PONTIAC">PONTIAC</option>
+                                <option value="PORSCHE">PORSCHE</option>
+                                <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+                                <option value="SAAB">SAAB</option>
+                                <option value="SATURN">SATURN</option>
+                                <option value="SUBARU">SUBARU</option>
+                                <option value="SUZUKI">SUZUKI</option>
+                                <option value="TOYOTA">TOYOTA</option>
+                                <option value="VOLKSWAGEN">VOLKSWAGEN</option>
+                                <option value="VOLVO">VOLVO</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="model">Модель:</label>
+                            <input type="text" name="model" id="model" placeholder="Выберите модель" class="request__input">
+                        </li>
+                        <li>
+                            <label for="year">Год выпуска:</label>
+                            <select name="year" id="year" aria-placeholder="Выберите год" class="request__input">
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                                <option value="1999">1999</option>
+                                <option value="1998">1998</option>
+                                <option value="1997">1997</option>
+                                <option value="1996">1996</option>
+                                <option value="1995">1995</option>
+                                <option value="1994">1994</option>
+                                <option value="1993">1993</option>
+                                <option value="1992">1992</option>
+                                <option value="1991">1991</option>
+                                <option value="1990">1990</option>
+                                <option value="1989">1989</option>
+                                <option value="1988">1988</option>
+                                <option value="1987">1987</option>
+                                <option value="1986">1986</option>
+                                <option value="1985">1985</option>
+                                <option value="1984">1984</option>
+                                <option value="1983">1983</option>
+                                <option value="1982">1982</option>
+                                <option value="1981">1981</option>
+                                <option value="1980">1980</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="parts">Необходимые детали:</label>
+                            <textarea name="parts" id="parts" cols="29" rows="5" placeholder="Введите" class="parts"></textarea>
+                        </li>
+                        <li>
+                            <label for="fname">Ваше имя:</label>
+                            <input type="text" name="fname" id="fname" placeholder="Введите" class="request__input">
+                        </li>
+                        <li>
+                            <label for="phone">Ваш телефон:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Введите" class="request__input">
+                        </li>
+                        <li>
+                            <label for="email">Введите e-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="Введите" class="request__input">
+                        </li>
+                        <li>
+                            <button type="submit" class="request__cost hvr-grow">Узнать цену</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+        <section class="four">
+            <div class="four__container">
+                <h2 class="four__title">
+                    Имеем в наличии детали на авто:
+                </h2>
+                <div class="four__models">
+                    <div class="four__item">
+                        <img src="img/audi.png" alt="audi" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/mercedes.png" alt="mercedes" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/bmw.png" alt="bmw" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/volkswagen.png" alt="volkswagen" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/jaguar.png" alt="jaguar" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/volvo.png" alt="volvo" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/mini.png" alt="mini" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/land.png" alt="land_rover" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/honda.png" alt="honda" class="hvr-grow">
+                    </div>
+                    <div class="break"></div>
+                    <div class="four__item">
+                        <img src="img/logo.png" alt="jeep" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/bentley.png" alt="bentley" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/porsche.png" alt="porsche" class="hvr-grow">
+                    </div>
+                    <div class="four__item">
+                        <img src="img/mazda.png" alt="mazda" class="hvr-grow">
+                    </div>
+                </div>
+                <h2 class="four__title">
+                    Вы можете посмотреть что происходит у нас!
+                </h2>
+                <div class="four__media">
+                </div>
+            </div>
+        </section>
+
+        <section class="five">
+            <h2 class="five__title">
+                Клиенты о нас
+            </h2>
+            <div class="five__container">
+                <div class="five__item">
+                    <img src="img/five_img.png" alt="author" class="five__img">
+                    <div class="five__author">Иван Иванович</div>
+                    <div class="five__item-title">Не могу найти фару для авто</div>
+                    <div class="five__item-descr">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.
+</div>
+                </div>
+                <div class="five__item">
+                    <img src="img/five_img.png" alt="author" class="five__img">
+                    <div class="five__author">Иван Иванович</div>
+                    <div class="five__item-title">Не могу найти фару для авто</div>
+                    <div class="five__item-descr">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.
+</div>
+                </div>
+                <div class="five__item">
+                    <img src="img/five_img.png" alt="author" class="five__img">
+                    <div class="five__author">Иван Иванович</div>
+                    <div class="five__item-title">Не могу найти фару для авто</div>
+                    <div class="five__item-descr">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.
+</div>
+                </div>
+                <div class="five__item">
+                    <img src="img/five_img.png" alt="author" class="five__img">
+                    <div class="five__author">Иван Иванович</div>
+                    <div class="five__item-title">Не могу найти фару для авто</div>
+                    <div class="five__item-descr">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.
+</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="six">
+            <div class="six__container">
+                <h2 class="title">Нужна консультация?</h2>
+                <h3 class="descr">Заполните форму и получите максимально точную цену!</h3>
+                <form action="POST" class="request">
+                    <div class="request__container">
+                        <div class="request__input-short">
+                            <label for="fname__short">Ваше имя</label>
+                            <input type="text" name="fname__short" id="fname__short" class="fname__short">
+                        </div>
+                        <div class="request__input-short">
+                            <label for="phone__short">Ваш телефон</label>
+                            <input type="tel" name="phone__short" id="phone__short" class="phone__short">
+                        </div>
+                        <button class="request__callback hvr-grow">Заказать консультацию</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="seven">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?ll=37.639748%2C55.616135&mode=usermaps&source=constructorLink&um=constructor%3Aac3986d788f7c881495ec16aa89986dc3c44e799ff4d88881b04ea2ecc517eb4&utm_medium=mapframe&utm_source=maps&z=15" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — поиск мест и адресов, городской транспорт</a><iframe src="https://yandex.ru/map-widget/v1/-/CKqjfSlH" width="100%" height="660" frameborder="1" allowfullscreen="true" style="position:relative; border: 0;"></iframe></div>
+            <div class="seven__container">
+                <div class="seven__contacts">
+                    <p class="seven__title">Контакты</p>
+                    <p class="seven__address">г. Москва, ул. Дорожная, 8, к.1</p>
+                    <a href="tel:79000000000" class="seven__phone">8 900 000 00 00</a>
+                    <a href="mailto:info@sitename.ru" class="seven__mail">info@sitename.ru</a>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="footer">
+            <div class="footer__left">
+                <p>ЛОГОТИП</p>
+            </div>
+            <div class="footer__right">
+                <div class="footer__number">
+                    <a href="tel:79000000000" class="footer--number">7(900)0000000</a>
+                </div>
+                <div class="footer__callback">
+                    <button class="callback hvr-grow">Заказать обратный звонок</button>
+                </div>
+            </div>
+        </footer>
+    <div class="popup">
+        <div class="popup__agree popup--close">
+            <div class="popup__container">
+                <button class="close hvr-grow"></button>
+                <h3 class="popup__title">
+                    Спасибо за вашу заявку!
+                </h3>
+                <h4 class="popup__descr">
+                    Мы свяжемся с Вами в ближайшее время!
+                </h4>
+            </div>
+        </div>
+        <div class="popup__callback popup--close">
+            <form action="send.php" class="popup__container">
+                <button class="close hvr-grow"></button>
+                <h3 class="popup__title">
+                    Заказ обратного звонка
+                </h3>
+                <h4 class="popup__descr">
+                    Оставьте заявку и мы Вам перезвоним!
+                </h4>
+                <input type="text" name="fname" placeholder="Ваше имя" class="popup__fname">
+                <input type="tel" name="phone" placeholder="Ваш телефон" class="popup__phone">
+                <input type="email" name="email" placeholder="Ваша почта" class="popup__email">
+                <button type="submit" class="popup__send hvr-grow">Отправить заявку</button>
+            </form>
+        </div>
+        <div class="popup__fast popup--close">
+            <form action="send.php" class="popup__container">
+                <button class="close hvr-grow"></button>
+                <h3 class="popup__title">
+                    Быстрая заявка
+                </h3>
+                <h4 class="popup__descr">
+                    Оставьте заявку и мы Вам перезвоним!
+                </h4>
+                <input type="text" name="fname" placeholder="Ваше имя" class="popup__fname">
+                <input type="tel" name="phone" placeholder="Ваш телефон" class="popup__phone">
+                <button type="submit" class="popup__send hvr-grow">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

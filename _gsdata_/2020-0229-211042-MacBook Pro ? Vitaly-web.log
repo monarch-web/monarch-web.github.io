@@ -1,0 +1,9 @@
+2020-02-29 21:10:48: -- Analysis Started by On File Change Incremental
+2020-02-29 21:11:01: Изменений: 2, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 72
+2020-02-29 21:11:01: Left to Right: Copy File: 2 
+2020-02-29 21:11:01: == Sync Started by On File Change Incremental
+2020-02-29 21:11:03: Скопирован новый '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/img/butterfly.svg' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/img/butterfly.svg' (2 995)
+2020-02-29 21:11:07: /Users/vitaly/Documents/GitHub/Monarch-Web-Studio/index.html: Source file has changed between Analyze and Sync from '[file] size=11 283 accu-time=2020-02-29 20:54:03 attr=644 cktype=0' to 'size=11 362 time=2020-02-29 21:10:58', noted in source file state
+2020-02-29 21:11:07: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/index.html' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/index.html' (11 283)
+2020-02-29 21:11:17: ===== Синхронизация завершена. Время 00:00:06, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 2, Ошибок: 0
+2020-02-29 21:11:18: 

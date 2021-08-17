@@ -1,0 +1,7 @@
+2020-02-21 16:40:39: -- Analysis Started by On File Change, After Delay
+2020-02-21 16:40:39: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 64
+2020-02-21 16:40:39: Left to Right: Copy File: 1 
+2020-02-21 16:40:39: == Sync Started by On File Change, After Delay
+2020-02-21 16:40:40: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/index.html' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/index.html' (10 627)
+2020-02-21 16:40:40: ===== Синхронизация завершена. Время 00:00:01, Скорость: 10,63 KB/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2020-02-21 16:40:40: 

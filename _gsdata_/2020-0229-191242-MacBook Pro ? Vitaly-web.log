@@ -1,0 +1,14 @@
+2020-02-29 19:12:42: On File Change Monitoring started on file:///Users/vitaly/Documents/GitHub/Monarch-Web-Studio
+2020-02-29 19:12:44: File Monitoring not available on: sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html
+2020-02-29 19:12:44: Remote File System with No monitoring, disconnect
+2020-02-29 19:12:45: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-02-29 19:12:47: Изменений: 5, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 68
+2020-02-29 19:12:47: Left to Right: Copy File: 5 
+2020-02-29 19:12:47: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-02-29 19:12:47: Создана Папка 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/php'
+2020-02-29 19:12:48: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/style.css' (34 466)
+2020-02-29 19:12:49: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/index.html' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/index.html' (11 204)
+2020-02-29 19:12:49: Скопирован новый '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/php/form.php' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/php/form.php' (0)
+2020-02-29 19:12:50: Скопирован новый '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/php/send.php' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/php/send.php' (722)
+2020-02-29 19:12:51: ===== Синхронизация завершена. Время 00:00:01, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 5, Ошибок: 0
+2020-02-29 19:12:51: 

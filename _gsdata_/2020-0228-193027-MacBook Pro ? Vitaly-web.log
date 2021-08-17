@@ -1,0 +1,10 @@
+2020-02-28 19:30:27: On File Change Monitoring started on file:///Users/vitaly/Documents/GitHub/Monarch-Web-Studio
+2020-02-28 19:30:34: File Monitoring not available on: sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html
+2020-02-28 19:30:34: Remote File System with No monitoring, disconnect
+2020-02-28 19:30:36: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-02-28 19:30:38: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 65
+2020-02-28 19:30:38: Left to Right: Copy File: 1 
+2020-02-28 19:30:38: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-02-28 19:30:38: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/style.css' (34 255)
+2020-02-28 19:30:39: ===== Синхронизация завершена. Время 00:00:00, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2020-02-28 19:30:40: 

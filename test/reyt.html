@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title></title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="//fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/reyt.css">
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+	<div class="page-main">
+		<aside>
+			<a href="#"><img alt="" class="logo" src="images/logo.png"/></a>
+			<div class="prof">
+				<picture> 
+					<source srcset="images/ava.png" media="(min-width: 1025px)"> 
+					<img alt="" src="images/online.svg"/> 
+				</picture>
+				<div>
+					<p class="name">Антон Пупышев</p>
+					<p class="onoff">онлайн</p>
+				</div>
+			</div>
+			<img src="./images/close-burger.png" alt="" class="close-burger">
+			<ul>
+				<li><a href="#"><span>Сводка</span></a></li>
+				<li><a href="#"><span>Календари</span></a></li>
+				<li><a href="#"><span>Мероприятия</span></a></li>
+				<li class="has-child"><a href="#"><span>Публикации в СМИ</span></a>
+					<ul>
+						<li class="active"><a href="#"><span>Динамика медийного интереса</span></a></li>
+						<li><a href="#"><span>Тональность упоминаний></span></a></li>
+						<li><a href="#"><span>Характеристики СМИ></span></a></li>
+						<li><a href="#"><span>Ключевые события></span></a></li>
+						<li><a href="#"><span>Тематический контекст></span></a></li>
+						<li><a href="#"><span>Спикерская активность></span></a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span>Видеоролики</span></a></li>
+				<li><a href="#"><span>Радио\спецвыпуски</span></a></li>
+				<li><a href="#"><span>Соцсети</span></a></li>
+				<li><a href="#"><span>Отчеты</span></a></li>
+			</ul>
+			<div class="sett sett-mob">
+                <a href="#" class="setting"></a>
+                <a href="#" class="exit"></a>
+            </div>
+		</aside>
+		<div class="content">
+			<header>
+				<a href="#"><img alt="" class="mobile-logo" src="images/logo.png"/></a>
+				<div class="mobile-online">
+					<img alt="" src="images/mobile-online.svg">
+				</div>
+				<div>
+                    <img class="burger-menu" src="./images/burger-menu.png" alt="">
+                </div>
+				<div class="select-block">
+					<select>
+						<option value="">Год</option>
+						<option value="">2020</option>
+						<option value="">2019</option>
+						<option value="">2018</option>
+						<option value="">2017</option>
+						<option value="">2016</option>
+						<option value="">2020</option>
+						<option value="">2019</option>
+						<option value="">2018</option>
+						<option value="">2017</option>
+						<option value="">2016</option>
+					</select>
+					<select>
+						<option value="">По месяцам</option>
+						<option value="">По кварталам</option>
+					</select>
+				</div>
+				<div class="scroll-icon"></div>
+				<nav>
+					<ul>
+						<li><a href="#">Январь</a></li>
+						<li><a href="#">Февраль</a></li>
+						<li><a href="#">Март</a></li>
+						<li><a href="#">Апрель</a></li>
+						<li><a href="#">Май</a></li>
+						<li><a href="#">Июнь</a></li>
+						<li><a href="#">Июль</a></li>
+						<li><a href="#">Август</a></li>
+						<li><a href="#">Сентябрь</a></li>
+						<li><a href="#">Октябрь</a></li>
+						<li><a href="#">Ноябрь</a></li>
+						<li><a href="#">Декабрь</a></li>
+					</ul>
+				</nav>
+				<div class="sett">
+					<a href="#" class="setting"></a>
+					<a href="#" class="exit"></a>
+				</div>
+			</header>
+			<div class="reyt_list">
+				<div class="reyt_item">
+					<p class="caption">География СМИ</p>
+					<ul class="reyt_rabs">
+						<li data-tab="1" class="tab active">ТОП-20 РЕГИОНОВ</li>
+						<li data-tab="2" class="tab">21-40</li>
+						<li data-tab="3" class="tab">41-60</li>
+						<li data-tab="4" class="tab">61-80</li>
+						<li data-tab="5" class="tab">81-85</li>
+					</ul>
+					<div class="tab_block tab-1 active">
+						<div class="wrapper">
+							<div class="point">
+								<div class="graph-name">Башкирия</div>
+								<div class="graph-block"><div class="graph-line" data-val="60" data-color="#8D64C0" data-height="6"><span>258</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Московская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="55" data-color="#8D64C0" data-height="6"><span>251</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Брянская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="55" data-color="#8D64C0" data-height="6"><span>251</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Краснодарский край</div>
+								<div class="graph-block"><div class="graph-line" data-val="50" data-color="#8D64C0" data-height="6"><span>240</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Нижегородская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="50" data-color="#8D64C0" data-height="6"><span>240</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Волгоградская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="40" data-color="#8D64C0" data-height="6"><span>215</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Татарстан</div>
+								<div class="graph-block"><div class="graph-line" data-val="40" data-color="#8D64C0" data-height="6"><span>215</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Чувашская Республика</div>
+								<div class="graph-block"><div class="graph-line" data-val="35" data-color="#8D64C0" data-height="6"><span>200</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#8D64C0" data-height="6"><span>190</span></div></div>
+							</div>
+						</div>
+					</div>
+					<div class="tab_block tab-2">
+						<div class="wrapper col-2"><canvas id="chart-2" height="360"></canvas></div>
+					</div>
+					<div class="tab_block tab-3">
+						<div class="wrapper col-2"><canvas id="chart-3" height="360"></canvas></div>
+					</div>
+					<div class="tab_block tab-4">
+						<div class="wrapper col-2"><canvas id="chart-4" height="360"></canvas></div>
+					</div>
+					<div class="tab_block tab-5">
+						<div class="wrapper col-2"><canvas id="chart-5" height="360"></canvas></div>
+					</div>
+
+				</div>
+				<div class="reyt_item">
+					<p class="caption">Федеральные и региональные СМИ</p>
+					<ul class="reyt_rabs reyt_rabs-sec">
+						<li data-tab="6" class="tab active">ТОП-20 СМИ</li>
+						<li data-tab="7" class="tab">ТОП-20 информагентств</li>
+					</ul>
+					<div class="tab_block tab-6 active">
+						<div class="wrapper">
+							<div class="point">
+								<div class="graph-name">Башкирия</div>
+								<div class="graph-block"><div class="graph-line" data-val="60" data-color="#5BBD82" data-height="6"><span>258</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Московская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="55" data-color="#5BBD82" data-height="6"><span>251</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Брянская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="55" data-color="#5BBD82" data-height="6"><span>251</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Краснодарский край</div>
+								<div class="graph-block"><div class="graph-line" data-val="50" data-color="#5BBD82" data-height="6"><span>240</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Нижегородская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="50" data-color="#5BBD82" data-height="6"><span>240</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Волгоградская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="40" data-color="#5BBD82" data-height="6"><span>215</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Татарстан</div>
+								<div class="graph-block"><div class="graph-line" data-val="40" data-color="#5BBD82" data-height="6"><span>215</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Чувашская Республика</div>
+								<div class="graph-block"><div class="graph-line" data-val="35" data-color="#5BBD82" data-height="6"><span>200</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">Саратовская обл.</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#5BBD82" data-height="6"><span>190</span></div></div>
+							</div>
+						</div>
+					</div>
+					<div class="tab_block tab-7">
+						<div class="wrapper col-2"><canvas id="chart-7" height="360"></canvas></div>
+					</div>
+				</div>
+				<div class="reyt_item">
+					<p class="caption">Информационные агентства</p>
+					<ul class="reyt_rabs reyt_rabs-sec">
+						<li data-tab="8" class="tab active">ТОП-10 федеральных</li>
+						<li data-tab="9" class="tab">ТОП-10 региональных </li>
+					</ul>
+					<div class="tab_block tab-8 active">
+						<div class="wrapper">
+							<div class="point">
+								<div class="graph-name">ТАСС</div>
+								<div class="graph-block"><div class="graph-line" data-val="80" data-color="#E9816A" data-height="14"><span>8</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ПРАЙМ - Бзнес лента (закрытая лента)</div>
+								<div class="graph-block"><div class="graph-line" data-val="70" data-color="#E9816A" data-height="14"><span>7</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ТАСС - Единая лента (закрытая лента).</div>
+								<div class="graph-block"><div class="graph-line" data-val="70" data-color="#E9816A" data-height="14"><span>7</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ПРАЙМ</div>
+								<div class="graph-block"><div class="graph-line" data-val="40" data-color="#E9816A" data-height="14"><span>4</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ТАСС</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#E9816A" data-height="14"><span>3</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ПРАЙМ - Бзнес лента (закрытая лента)</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#E9816A" data-height="14"><span>3</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ТАСС - Единая лента (закрытая лента).</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#E9816A" data-height="14"><span>3</span></div></div>
+							</div>
+							<div class="point">
+								<div class="graph-name">ПРАЙМ</div>
+								<div class="graph-block"><div class="graph-line" data-val="30" data-color="#E9816A" data-height="14"><span>3</span></div></div>
+							</div>
+						</div>
+					</div>
+					<div class="tab_block tab-9">
+						<div class="wrapper col-2"><canvas id="chart-9" height="360"></canvas></div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div class="bcg"></div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	<script src="js/jquery.uploadPreview.js"></script> 
+	<script src="js/jquery.formstyler.js"></script> 
+	<script src="js/common.js"></script> 
+	<script>
+		$(function(){
+			$('.tab').click(function(){
+				var id = $(this).attr('data-tab');
+				$(this).closest('.reyt_item').find('.tab').removeClass('active');
+				$(this).addClass('active');
+				$(this).closest('.reyt_item').find('.tab_block').removeClass('active');
+				$('.tab-'+id).addClass('active');
+			});
+			$('.graph-line').each(function(e){
+				var color = $(this).attr('data-color');
+				var height = $(this).attr('data-height');
+				var val = $(this).attr('data-val');
+				$(this).css('height',height+'px').css('background',color).css('width',val+'%');
+				$(this).find('span').css('background',color);
+				var h = parseInt(height) + parseInt(14);
+				$(this).find('span').css('height',h+'px');
+				$(this).find('span').css('line-height',h+'px');
+			});
+		});
+	</script>
+		
+</body>
+</html>	

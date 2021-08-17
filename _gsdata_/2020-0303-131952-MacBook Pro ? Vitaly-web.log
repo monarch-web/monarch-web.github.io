@@ -1,0 +1,7 @@
+2020-03-03 13:19:58: -- Analysis Started by On File Change Incremental
+2020-03-03 13:20:00: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 73
+2020-03-03 13:20:00: Left to Right: Copy File: 1 
+2020-03-03 13:20:00: == Sync Started by On File Change Incremental
+2020-03-03 13:20:00: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/send.php' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/send.php' (974)
+2020-03-03 13:20:01: ===== Синхронизация завершена. Время 00:00:00, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2020-03-03 13:20:01: 

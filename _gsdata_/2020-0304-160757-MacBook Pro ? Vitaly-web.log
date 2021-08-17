@@ -1,0 +1,16 @@
+2020-03-04 16:07:57: On File Change Monitoring started on file:///Users/vitaly/Documents/GitHub/Monarch-Web-Studio
+2020-03-04 16:07:58: File Monitoring not available on: sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html
+2020-03-04 16:07:58: Remote File System with No monitoring, disconnect
+2020-03-04 16:07:59: -- Analysis Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-03-04 16:07:59: 2020-03-04 16:07:59: Приостановлено
+2020-03-04 16:21:53: 2020-03-04 16:21:53: Возобновлено
+2020-03-04 16:21:53: Waiting for 8(120) sec on verb SftpReq: Premature EOF. Received 0 bytes out of 1
+2020-03-04 16:22:03: Recovered the connection, continuing operations
+2020-03-04 16:22:05: Изменений: 3, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 75
+2020-03-04 16:22:05: Left to Right: Copy File: 3 
+2020-03-04 16:22:05: == Sync Started by On File Change First Full Analyze Upon File Monitoring Start
+2020-03-04 16:22:06: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/style.css' (37 323)
+2020-03-04 16:22:06: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/index.html' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/index.html' (12 278)
+2020-03-04 16:22:06: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/js/script.js' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/js/script.js' (2 231)
+2020-03-04 16:22:07: ===== Синхронизация завершена. Время 00:00:00, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 3, Ошибок: 0
+2020-03-04 16:22:07: 

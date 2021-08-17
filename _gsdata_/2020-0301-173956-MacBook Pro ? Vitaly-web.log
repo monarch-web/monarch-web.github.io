@@ -1,0 +1,7 @@
+2020-03-01 17:39:58: -- Analysis Started by On File Change, After Delay
+2020-03-01 17:39:58: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0, Ошибок: 0, All: 73
+2020-03-01 17:39:58: Left to Right: Copy File: 1 
+2020-03-01 17:39:58: == Sync Started by On File Change, After Delay
+2020-03-01 17:39:59: Скопировано поверх '/Users/vitaly/Documents/GitHub/Monarch-Web-Studio/css/style.css' -> 'sftp://a0391989.xsph.ru/home/a0391989/domains/a0391989.xsph.ru/public_html/css/style.css' (35 208)
+2020-03-01 17:40:00: ===== Синхронизация завершена. Время 00:00:01, Скорость: 0,00/s файлов/сек =====, Синхронизировано: 1, Ошибок: 0
+2020-03-01 17:40:00: 
