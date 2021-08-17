@@ -2,6 +2,7 @@
 ## Навигация:
 - [Банкротство физических лиц - практика верстки](https://monarch-web.github.io/Banking/)
 - [Конфигуратор вертолета - заказ](https://monarch-web.github.io/config/) (**В работе**)
+- [Сайт клиники - заказ](https://monarch-web.github.io/tls/) (**Не доделан по причине неактуальности для заказчика**)
 - [Инвестиционный сайт - заказ](https://monarch-web.github.io/invest/)
   - [Идеи](https://monarch-web.github.io/invest/idea)
   - [Идеи #2](https://monarch-web.github.io/invest/idea-web)
