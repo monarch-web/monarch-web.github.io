@@ -15,3 +15,4 @@
   - [Личный кабинет](https://monarch-web.github.io/invest/lk)
   - [Контакты](https://monarch-web.github.io/invest/contacts)
 - [Профессиональный союз микрофинансовых организаций - заказ](https://monarch-web.github.io/mfo/index.html)
+- [Подкаст - образование - заказ](https://monarch-web.github.io/podcast)
