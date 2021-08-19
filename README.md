@@ -15,5 +15,5 @@
   - [Экономический журнал](https://monarch-web.github.io/invest/analytics)
   - [Личный кабинет](https://monarch-web.github.io/invest/lk)
   - [Контакты](https://monarch-web.github.io/invest/contacts)
-- [Профессиональный союз микрофинансовых организаций - заказ](https://monarch-web.github.io/mfo/index.html)
+- [Профессиональный союз микрофинансовых организаций - заказ](https://monarch-web.github.io/mfo/)
 - [Подкаст - образование - заказ](https://monarch-web.github.io/podcast)
