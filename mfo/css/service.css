@@ -1,0 +1,19 @@
+.service {
+    background-image: url(/img/service-bcg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.union-about {
+    margin-bottom: 0;
+    padding-bottom: 270px;
+}
+
+
+@media (min-width: 513px) and (max-width: 768px) {
+    header {
+        height: 120px;
+    }
+}

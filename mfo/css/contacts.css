@@ -1,0 +1,143 @@
+.union-about {
+    padding-bottom: 183px;
+}
+
+.form-title {
+    font-size: 21px;
+    text-align: left;
+    width: 86%;
+    margin: 33px auto -50px!important;
+}
+
+.section-title {
+    padding-left: 75px;
+}
+
+.form {
+    border-top: 3px solid #56CCF2;
+}
+
+.search::before {
+    top: 5%;
+}
+
+.search-mob::before {
+    top: 35%;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../img/callback-bcg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 310px;
+    min-height: 516px;
+    margin: auto;
+    margin-bottom: 202px;
+    margin-top: 70px;
+}
+
+
+.blur {
+    filter: blur(8px);
+    height: 100vh;
+  }
+
+.form-container input, textarea {
+    background-color: #323232;
+    border: 2px solid #56CCF2;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-width: 266px;
+    margin: auto;
+}
+
+.form-container input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.btn-anim {
+    margin: auto;
+}
+
+
+@media (min-width:770px) and (max-width: 875px) {
+    .form-container {
+        background-size: 125% !important;
+    }
+}
+
+@media (min-width: 770px) {
+    .form-container {
+        background-image: url(../img/form-bcg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        height: 780px;
+        max-width: 920px;
+    }    
+
+    .form-inputs {
+        max-width: 1000px;
+        max-height: 300px;
+        margin: auto;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .form-title {
+        font-size: 48px;
+        text-align: center;
+        width: 86%;
+        margin: 113px auto -50px!important;
+        /* margin-left: 12% !important; */
+    }
+
+    .form-container input, textarea {
+        min-width: 0;
+        max-width: 1000px;
+        width: 85%;
+        font-size: 24px;
+    }
+
+    
+    
+}
+
+@media (min-width:770px)  {
+
+    .section-title {
+        text-align: center;
+    }
+
+    .speach {
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .btn-anim {
+        margin-top: -60px;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 2000px) {
+    .section-title {
+        text-align: left;
+    }
+
+    .union-about {
+        margin-top: 0;
+        padding-bottom: 100px;
+    }
+}

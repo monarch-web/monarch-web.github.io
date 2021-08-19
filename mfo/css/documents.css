@@ -1,0 +1,77 @@
+.more-info {
+    font-size: 16px;
+    text-transform: none;
+}
+
+.url {
+    text-decoration: none;
+    color: #56CCF2;
+}
+
+.url:hover {
+    text-decoration: none;
+    color: #56CCF2;
+}
+
+.section-title {
+    font-weight: 700;
+    padding-left: 145px;
+    font-size: 46px;
+}
+
+.union-about {
+    padding-top: 50px;
+}
+
+.headline {
+    font-weight: 500;
+    width: 98%;
+}
+
+.speach {
+    line-height: initial;
+    padding-left: 0;
+}
+
+.speach-list {
+    margin-left: 50px;
+}
+
+@media (max-width: 1600px) {
+    .section-title {
+        font-size: 36px;
+      }
+
+      .doc-1 {
+          padding-left: 215px;
+      }
+}
+
+@media (max-width: 1370px) {
+    .doc-1 {
+        /* padding-left: 0; */
+    }
+}
+
+@media (max-width:1199px) {
+    .headline {
+        /* text-align: right !important; */
+        width: 100%;
+    }
+
+    .speach {
+        font-size: 25px;
+        padding-left: 15px;
+    }
+
+    .section-title {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 32px;
+        padding-left: 0;
+    }
+}
