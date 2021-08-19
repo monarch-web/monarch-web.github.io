@@ -15,4 +15,3 @@
   - [Экономический журнал](https://monarch-web.github.io/invest/analytics)
   - [Личный кабинет](https://monarch-web.github.io/invest/lk)
   - [Контакты](https://monarch-web.github.io/invest/contacts)
-- [Банкротство физических лиц](https://monarch-web.github.io/Banking/) - практика верстки
