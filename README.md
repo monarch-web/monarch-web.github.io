@@ -1,9 +1,9 @@
 # Мои работы
 ## Навигация:
-- [Банкротство физических лиц - практика верстки](https://monarch-web.github.io/Banking/)
-- [Конфигуратор вертолета - заказ](https://monarch-web.github.io/config/) (**В работе**)
-- [Сайт клиники - заказ](https://monarch-web.github.io/tls/) (**Не доделан по причине неактуальности для заказчика**)
-- [Инвестиционный сайт - заказ](https://monarch-web.github.io/invest/)
+- [Профессиональный союз микрофинансовых организаций](https://monarch-web.github.io/mfo/) - заказ
+- [Конфигуратор вертолета](https://monarch-web.github.io/config/) - заказ (**В работе**)
+- [Сайт клиники](https://monarch-web.github.io/tls/) - заказ (**Не доделан по причине неактуальности для заказчика**)
+- [Инвестиционный сайт](https://monarch-web.github.io/invest/) - заказ
   - [Идеи](https://monarch-web.github.io/invest/idea)
   - [Идеи #2](https://monarch-web.github.io/invest/idea-web)
   - [Идеи #3](https://monarch-web.github.io/invest/idea-item)
@@ -15,5 +15,5 @@
   - [Экономический журнал](https://monarch-web.github.io/invest/analytics)
   - [Личный кабинет](https://monarch-web.github.io/invest/lk)
   - [Контакты](https://monarch-web.github.io/invest/contacts)
-- [Профессиональный союз микрофинансовых организаций - заказ](https://monarch-web.github.io/mfo/index.html)
-- [Подкаст - образование - заказ](https://monarch-web.github.io/podcast)
+- [Подкаст. Платформа для размещения подкастов. Разработка для диссертации](https://monarch-web.github.io/podcast)  - заказ
+- [Банкротство физических лиц](https://monarch-web.github.io/Banking/) - практика верстки
