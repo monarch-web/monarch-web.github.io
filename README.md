@@ -1,5 +1,6 @@
 # Мои работы
 ## Навигация:
+- [Профессиональный союз микрофинансовых организаций - заказ](https://monarch-web.github.io/mfo/)
 - [Банкротство физических лиц - практика верстки](https://monarch-web.github.io/Banking/)
 - [Конфигуратор вертолета - заказ](https://monarch-web.github.io/config/) (**В работе**)
 - [Сайт клиники - заказ](https://monarch-web.github.io/tls/) (**Не доделан по причине неактуальности для заказчика**)
@@ -15,5 +16,4 @@
   - [Экономический журнал](https://monarch-web.github.io/invest/analytics)
   - [Личный кабинет](https://monarch-web.github.io/invest/lk)
   - [Контакты](https://monarch-web.github.io/invest/contacts)
-- [Профессиональный союз микрофинансовых организаций - заказ](https://monarch-web.github.io/mfo/)
-- [Подкаст - образование - заказ](https://monarch-web.github.io/podcast)
+- [Подкаст. Платформа для размещения подкастов. Разработка для диссертации - заказ](https://monarch-web.github.io/podcast)
